@@ -215,10 +215,9 @@ export default {
 }
 body{
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   overflow: hidden;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar{
   position: fixed;
@@ -226,21 +225,17 @@ body{
   left: 0;
   height: 100%;
   width: 300px;
-  background: #071333;
-  border-right: 1px solid black;
-  padding: 7px 20px;
-}
-.sidebar ul{
-  margin-top: 20px;
+  background: rgba(34, 34, 34, 1);
+  /*border: 2px solid black;*/
+  padding: 6px 20px 37px;
 }
 .sidebar ul li{
   position: relative;
   height: 50px;
   width: 100%;
-  margin: 0 5px;
+  margin: 0 4px;
   list-style: none;
-  line-height: 30px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  line-height: 25px;
 }
 .sidebar ul li input{
   position: absolute;
@@ -255,14 +250,12 @@ body{
   padding-left: 50px;
   font-size: 18px;
   color: black;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar ul li .bx-search-alt{
   position: absolute;
   z-index: 99;
   color: black;
   font-size: 22px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar ul li a{
   color: grey;
@@ -270,19 +263,16 @@ body{
   align-items: center;
   text-decoration: none;
   transition: all 0.4s ease;
-  border-radius: 12px;
-  font-size: 17px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
+  font-size: 16px;
 }
 .sidebar ul li a:hover{
-  color: black;
+  color: #D23535;
   background: aliceblue;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar ul li a:active{
-  color: black;
+  color: #D23535;
   background: aliceblue;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar ul li  i{
   height: 50px;
@@ -290,35 +280,32 @@ body{
   border-radius: 12px;
   line-height: 50px;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 i{
-  font-size: 27px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  font-size: 25px;
 }
-.logout{
-  padding: 12px 75px;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 12px;
-  color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-.logout:hover{
-  background-color: #f25961;
-  border-color: #f25961;
+
+.logout:hover {
+  background-color: #FB4E4E;
+  border-color: #FB4E4E;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
+}
+
+.logout{
+  padding: 11px 70px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .user{
   color: #FFFFFF;
   font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
-  padding-top: 16px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  padding-top: 10px;
 }
 .back-login{
   margin-right: 40px;
@@ -326,9 +313,9 @@ i{
   padding: 50px;
   text-decoration: none;
   font-size: 20px;
-  border-radius: 15px;
-  color: black;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #282E3BC7;
 }
 .back-home{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -336,17 +323,24 @@ i{
   padding: 50px;
   text-decoration: none;
   font-size: 20px;
-  border-radius: 15px;
-  color: black;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #282E3BC7;
+  border-radius: 5px;
+  color: #fff;
 }
+
+.nav-list{
+  margin-top: 20px;
+}
+
 .final{
   margin-left: 28%;
   margin-top: 18%;
+  display: flex;
 }
 .links-name{
-  font-family: GTEestiProDisplay-Regular,serif ;
+
 }
+
 
 .dropdown-nav-2{
   display: flex;
@@ -368,7 +362,6 @@ i{
 .dropdown-nav-2 li {
   overflow: hidden;
   list-style: none;
-  font-family: GTEestiProDisplay-Regular, serif;
   font-weight: bold;
 }
 
@@ -378,13 +371,12 @@ i{
 
 .dropdown-nav-2 a {
   padding: 0.3em 0;
-  color: #676767;
+  color: #ffffff;
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
   margin: 0;
   text-decoration: none;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .dropdown-nav-2 a:before,
@@ -400,25 +392,22 @@ i{
   bottom: 100%;
   left: 0;
   content: attr(data-hover);
-  color: #676767;
+  color: #ffffff;
   white-space: nowrap;
 }
 
 .dropdown-nav-2 li:hover a,
 .dropdown-nav-2.current a {
-  color: #4d4dff;
+  color: #D23535;
 }
 
+.logo-container {
+  display: inline-block;
+}
 .footer-img {
-  width: 60%;
-  /*min-width: 100%;*/
-  border-radius: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  border-radius: 18px;
 }
-
-
 
 .bx-menu{
   font-size: 38px;

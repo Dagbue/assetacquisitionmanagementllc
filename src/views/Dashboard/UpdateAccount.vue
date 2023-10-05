@@ -127,12 +127,12 @@ textarea{
   padding-left: 20px;
 }
 .update-account{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   color: #FFFFFF;
   margin: 5% 25% 1.5% 20%;
   padding: 4% 5% 4% 6%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 i{
   padding-bottom: 12px;
@@ -143,16 +143,16 @@ i{
 .bank-trans-btn{
   padding: 10px 50px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 10px;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  border-radius: 5px;
   margin-right: 5%;
   margin-top: 1%;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .bank-trans-btn:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -173,7 +173,7 @@ div{
 }
 .full-name{
   padding: 2px 25px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 p{
   font-size: 20px;
@@ -184,7 +184,7 @@ p{
   }
   .full-name{
     padding: 1px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 12px;
   }
   label{

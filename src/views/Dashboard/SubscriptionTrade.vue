@@ -78,10 +78,10 @@
       <button @click="hideDialog2" class="btn-sub2">Close</button>
     </base-modal2>
 
-    <div class="content-sep">
-      <hr class="line">
-      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-    </div>
+<!--    <div class="content-sep">-->
+<!--      <hr class="line">-->
+<!--      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--    </div>-->
   </div>
 </dash-content>
 </template>
@@ -118,47 +118,42 @@ export default {
 
 <style scoped>
 .history-header{
-  margin-left: 7%;
   padding-top: 4%;
   font-size: 27px;
-  color: #FF7A8A;
+  color: #D23535;
   text-align: center;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .support{
   text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   padding-right: 6%;
   padding-top: 5%;
-  background-color: #282E3BC7;
   color: #FFFFFF;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
   margin-left: 10%;
   margin-right: 8%;
   margin-top: 3%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .support-header{
   font-size: 23px;
   padding-bottom: 10px;
   padding-left: 20px;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .support-subheader{
   font-size: 17px;
   padding-bottom: 10px;
   padding-left: 60px;
   line-height: 1.5;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 
 i{
   font-size: 47px;
-  color: #FF7A8A;
+  color: #D23535;
 }
 p{
   font-size: 15px;
   padding-bottom: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .para-last{
   padding-bottom: 8%;
@@ -167,31 +162,31 @@ p{
 .one{
   padding: 15px 30px;
   margin-right: 20px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: #FF7A8A;
-  border: 1px solid #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .one:hover{
-  background-color: #071333;
-  border: 1px solid #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 .two:hover{
-  background-color: #071333;
-  border: 1px solid #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 .two{
   padding: 15px 30px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: red;
-  border: 1px solid red;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 
 hr{
@@ -202,10 +197,8 @@ hr{
 .subscribe-header{
   font-size: 25px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 select{
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .three{
   display: flex;
@@ -218,43 +211,40 @@ select{
 .subscribe-label{
   margin-top: 12px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .subscribe-amount{
   margin-top: 12px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .subscribe-input{
   margin-bottom: 25px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .btn-sub{
   padding: 10px 25px;
   margin-right: 20px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .btn-sub:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 .btn-sub2{
   padding: 10px 25px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: red;
-  border-color: red;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .btn-sub2:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -264,8 +254,7 @@ select{
   padding-left: 5px;
   margin-top: 5px;
   background-color: rgba(247, 247, 249, 1);
-  border-radius: 12px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 .subscribe-input{
   padding-top: 7px;
@@ -273,18 +262,15 @@ select{
   padding-left: 5px;
   margin-top: 5px;
   background-color: rgba(247, 247, 249, 1);
-  border-radius: 12px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 .five{
   display: flex;
   flex-direction: column;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .subscribe-mt4{
   padding-top: 10px;
   color: #FFFFFF;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .mt4-input{
   padding-top: 7px;
@@ -292,8 +278,7 @@ select{
   padding-left: 5px;
   margin-top: 5px;
   background-color: rgba(247, 247, 249, 1);
-  border-radius: 12px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 .mt4-select{
   padding-top: 7px;
@@ -301,9 +286,8 @@ select{
   padding-left: 5px;
   margin-top: 5px;
   background-color: rgba(247, 247, 249, 1);
-  border-radius: 12px;
+  border-radius: 5px;
   margin-bottom: 22px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .content-sep {
   margin-top: 21%;
@@ -316,7 +300,7 @@ select{
   padding-top: 5px;
 }
 span{
-  color: #FF7A8A;
+  color: #D23535;
 }
 
 @media (max-width: 550px) {
@@ -332,7 +316,6 @@ span{
     font-size: 16px;
     padding-left: 30px;
     line-height: 1.5;
-    font-family: GTEestiProDisplay-Regular,serif ;
   }
   .para-last{
     display: flex;
@@ -342,7 +325,7 @@ span{
     padding: 7px 30px;
     margin-right: 20px;
     margin-left: 20px;
-    border-radius: 12px;
+    border-radius: 5px;
     font-size: 13px;
   }
   .two{

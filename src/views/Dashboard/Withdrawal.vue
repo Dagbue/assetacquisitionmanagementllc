@@ -38,10 +38,10 @@
 
 
 
-    <div class="content-sep" v-show="deposit">
-      <hr class="line">
-      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-    </div>
+<!--    <div class="content-sep" v-show="deposit">-->
+<!--      <hr class="line">-->
+<!--      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--    </div>-->
   </dash-content>
 </template>
 
@@ -157,20 +157,19 @@ export default {
   font-size: 23px;
   padding-bottom: 10px;
   text-align: center;
-  color: #FF7A8A;
+  color: #D23535;
   padding-right: 110px;
-  font-family: GTEestiProDisplay-Bold,serif ;
   letter-spacing: 2px;
 }
 .bank-trans{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   color: #FFFFFF;
   margin-bottom: 1.5%;
   margin-right: 10%;
   margin-left: 13%;
   padding: 5% 5% 7% 6%;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
 .bank-trans-form{
@@ -189,8 +188,7 @@ input{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
   font-size: 17px;
 }
 select{
@@ -199,38 +197,35 @@ select{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 option{
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 label{
   padding-top: 2px;
   padding-bottom: 12px;
   font-size: 19px;
-  color: #071333;
+  color: #ffffff;
   font-weight: 700;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .bank-trans-btn{
   padding: 12px 75px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  border-radius: 5px;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
 .bank-trans-btn:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #ffffff;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -245,9 +240,7 @@ label{
   text-align: center;
   padding-top: 5px;
 }
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
+
 .modal-text{
   text-align: center;
   font-size: 20px;
@@ -261,7 +254,7 @@ p{
 }
 span{
   margin-top: 20px;
-  color: #FF7A8A;
+  color: #D23535;
   font-size: 19px;
 }
 
@@ -269,25 +262,25 @@ span{
   padding-left: 5%;
   padding-top: 20px;
   font-size: 18px;
-  color: #f25961;
+  color: #D23535;
   font-weight: 700;
 }
 
 .btn-sub{
   margin-left: 35%;
   padding: 8px 50px;
-  color: white;
   margin-top: 20px;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: white;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  border-radius: 5px;
   font-size: 16px;
 }
 
 .btn-sub:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #ffffff;
+  border-color: #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -296,6 +289,7 @@ span{
   font-size: 20px;
   list-style: none;
   text-decoration: none;
+  color: #D23535;
 }
 
 .para-last:hover{

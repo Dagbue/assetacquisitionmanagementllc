@@ -48,11 +48,7 @@ form {
   margin: 2rem auto;
   max-width: 40rem;
   border-radius: 12px;
-  /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
-  box-shadow:  30px 30px 100px #bebebe,
-  -50px -50px 100px #ffffff;
   padding: 0.7rem;
-  background-color: #ffffff;
 }
 
 :root {
@@ -67,11 +63,12 @@ form {
   align-items: center;
   justify-content: center;
   /*min-height: 100vh;*/
+  box-shadow: 0 0 5px #313131;
+  background: rgba(34, 34, 34, 1);
 }
 
 .header-span {
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #D23535;
 }
 
 .wrapper {
@@ -104,19 +101,19 @@ form {
   font-size: 40px;
   font-weight: 500;
   line-height: 52px;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .headline h2 {
   font-weight: 400;
   font-size: 25px;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .headline p {
   font-size: 17px;
   padding-top: 10px;
-  font-family: GTEestiProDisplay-Regular, serif;
+color: #FFFFFF;
 }
 
 .wrapper .form {
@@ -128,7 +125,6 @@ form {
 
 .wrapper .form-group {
   margin-bottom: 30px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .wrapper .form-group input {
@@ -158,7 +154,16 @@ form {
 .btn,
 .btn-white,
 .btn-animated {
-
+  width: 100%;
+  line-height: 35px;
+  padding: 10px 27px;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn:link,
@@ -167,33 +172,23 @@ form {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
 }
 .btn:hover {
-  background-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 4ms ease-in;
-}
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
   transition: 4ms ease-in;
 }
 
 .btn-white {
-  background-color: #FF7A8A;
-  color: white;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  color: #FFFFFF;
   font-size: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
-  width: 100%;
-  line-height: 35px;
-  padding: 8px 30px;
-  text-transform: uppercase;
-  border: none;
-  text-align: center;
-  border-radius: 20px;
+  margin-bottom: 10%;
 }
 
 .separator {
@@ -212,7 +207,6 @@ form {
   padding: 0 1rem;
   font-size: 15px;
   color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .create-acc {
@@ -221,7 +215,6 @@ form {
   padding-bottom: 40px;
 }
 .create-text {
-  font-family: GTEestiProDisplay-light, serif;
 }
 .create-link {
   padding-left: 10px;

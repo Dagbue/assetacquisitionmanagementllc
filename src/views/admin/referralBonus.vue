@@ -184,16 +184,14 @@ export default {
 .card-text {
   font-size: 18px;
   line-height: 18px;
-  color: rgba(0, 50, 92, 70%);
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
 .card-big-text {
   font-size: 27px;
   line-height: 24px;
-  color: rgba(0, 50, 92, 1);
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #ffffff;
 }
 
 
@@ -244,15 +242,13 @@ export default {
 .header{
   font-size: 24px;
   margin-top: 4%;
-  font-family: GTEestiProDisplay-Bold,serif ;
-  color: #071333;
-  text-align: center;
+  padding-left: 8%;
+  color: #ffffff;
 }
 .sub-header{
   font-size: 19px;
-  font-family: GTEestiProDisplay-Regular,serif ;
   padding-left: 6%;
-  color: #071333;
+  color: #ffffff;
 }
 
 span{
@@ -261,12 +257,11 @@ span{
 }
 p{
   font-size: 20px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 .global{
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
@@ -343,6 +338,9 @@ p{
     margin-bottom: 20px;
     margin-top: unset;
     text-align: center;
+  }
+  qc-grid-widget{
+    width: 385px;
   }
 }
 

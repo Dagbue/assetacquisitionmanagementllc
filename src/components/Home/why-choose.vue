@@ -64,9 +64,8 @@ export default {
 
 <style scoped>
 .career-choice-container {
-
   padding: 0 8% 100px;
-  background-color: rgba(242, 250, 253, 0.4);
+  background: rgba(34, 34, 34, 0.5);
 }
 
 .career-choice-header {
@@ -79,24 +78,22 @@ export default {
 
 .career-choice-header .one {
   margin: 0;
-  font-family: GTEestiProDisplay-Regular, serif;
   font-size: 32px;
   line-height: 46px;
   letter-spacing: 0;
   text-align: center;
-  color: rgba(25, 40, 80, 1);
+  color: #ffffff;
   padding-bottom: 20px;
   width: 60%;
   font-weight: bold;
 }
 
 .career-choice-header .two {
-  font-family: GTEestiProDisplay-Light, serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
-  color: #071333;
+  color: #ffffff;
   padding-bottom: 30px;
   width: 65%;
   margin: 0;
@@ -107,7 +104,6 @@ export default {
   background: #0098da;
   border-radius: 70px;
   color: rgba(255, 255, 255, 1);
-  font-family: GTEestiProDisplay-Regular, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

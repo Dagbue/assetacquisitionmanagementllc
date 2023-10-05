@@ -68,7 +68,7 @@ export default {
           content:
             "Aside our major investment portfolio being in cryptocurrency and forex. Our Parent company " +
             "partners in a lot of foreign short term projects. Partnerships in categories of Agriculture, " +
-            "Oil & Gas.",
+            "Oil & Gas to ensure maximum profits. ",
           src: "https://cdn.pixabay.com/photo/2018/04/05/02/25/analytics-3291738_960_720.jpg",
           image: "budget.png",
         },
@@ -94,9 +94,8 @@ export default {
   text-align: center;
   padding-top: 2%;
   margin-bottom: 0;
-  color: #071333;
+  color: #FFFFFF;
   font-size: 30px;
-  font-family: GTEestiProDisplay-Bold, serif;
   letter-spacing: 1px;
 }
 @media (max-width: 990px) {

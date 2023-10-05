@@ -22,17 +22,15 @@ export default {
   font-size: 24px;
   width: 50%;
   padding-bottom: 4%;
-  color: #FF7A8A;
+  color: #D23535;
   font-weight: 300;
-  font-family: GTEestiProDisplay-bold, serif;
 }
 .section-header-1{
   font-size: 32px;
-  color: #071333;
+  color: #D23535;
   font-weight: bold;
   padding-top: 5%;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 hr{

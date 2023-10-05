@@ -106,7 +106,7 @@ export default {
         statusDeposit: this.statusDeposit,
         createdAt: serverTimestamp(),
       })
-      alert("Deposit Successful pending confirmation")
+      alert("Deposit Request Sent pending confirmation")
       await router.push('/bitcoin')
     },
   },
@@ -126,19 +126,18 @@ export default {
   padding-bottom: 10px;
   text-align: center;
   padding-right: 110px;
-  font-family: GTEestiProDisplay-Bold,serif ;
   letter-spacing: 3px;
-  color: #FF7A8A;
+  color: #D23535;
 }
 .bank-trans{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   color: #FFFFFF;
   margin-bottom: 3%;
   margin-right: 10%;
   margin-left: 13%;
   padding: 5% 5% 7% 6%;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
 .bank-trans-form{
@@ -157,8 +156,7 @@ input{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
   font-size: 17px;
 }
 select{
@@ -167,39 +165,36 @@ select{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 option{
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 label{
   padding-top: 2px;
   padding-bottom: 12px;
   font-size: 19px;
-  color: #071333;
+  color: #D23535;
   font-weight: 700;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .bank-trans-btn{
   padding: 15px 85px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 10px;
+  background-color: #D23535;
+  border-color: #D23535;
+  border-radius: 5px;
   font-size: 17px;
-  font-family: GTEestiProDisplay-Regular,serif ;
   text-decoration: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .bank-trans-btn:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #ffffff;
+  border-color: #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -217,7 +212,6 @@ label{
   font-family: GTEestiProDisplay-Regular,serif ;
 }
 p{
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 @media (max-width: 550px) {

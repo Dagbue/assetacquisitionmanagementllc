@@ -106,12 +106,12 @@ export default {
   width: 100%;
   margin-right: 10%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-  padding: 20px 30px;
-  border-radius: 12px;
+  padding: 40px 45px;
+  border-radius: 5px;
 }
 
 .contact-form  {
-  border-bottom: solid 1px #ccc;
+  /*border-bottom: solid 1px #ccc;*/
   margin-bottom: 15px;
 }
 
@@ -125,8 +125,7 @@ export default {
   text-align: center;
   font-size: 30px;
   padding-bottom: 12px;
-  font-family: GTEestiProDisplay-Bold, serif;
-  color: #FF7A8A;
+  color: #ffffff;
 }
 
 .contact-form input[type="email"],
@@ -136,7 +135,6 @@ export default {
   padding: 20px 7px;
   margin-bottom: 15px;
   outline: none;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .contact-form textarea {
@@ -144,20 +142,21 @@ export default {
 }
 
 .contact-form .button {
-  background: #FF7A8A;
-  border: solid 1px #FF7A8A;
+  background: #D23535;
+  border: solid 1px #D23535;
   color: white;
   cursor: pointer;
   padding: 10px 40px;
   text-align: center;
   text-transform: uppercase;
-  font-family: GTEestiProDisplay-Regular, serif;
   border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .contact-form .button:hover {
-  background: #FF7A8A;
-  border: solid 1px #FF7A8A;
+  background: #ffffff;
+  border: solid 1px #D23535;
+  color: #071333;
 }
 
 .contact-form input[type="email"],
@@ -166,14 +165,12 @@ export default {
 .contact-form .button {
   font-size: 15px;
   border-radius: 3px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .contact-text-header {
   text-align: center;
   font-size: 30px;
-  font-family: GTEestiProDisplay-Bold, serif;
-  color: #FF7A8A;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -181,36 +178,31 @@ export default {
   font-size: 20px;
   padding-top: 13px;
   padding-bottom: 13px;
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
 }
 
 .contact-text-header-3 {
   padding-bottom: 15px;
-  font-family: GTEestiProDisplay-Bold, serif;
-  color: #FF7A8A;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .contact-text-para-2 {
   padding-bottom: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
 }
 
 .contact-text-para-3 {
   padding-bottom: 17px;
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
 }
 
 .contact-text-para-4 {
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
 }
 
 .newsletter {
-  background-color: aliceblue;
+  background: rgba(34, 34, 34, 0.4);
   padding-top: 15px;
   padding-bottom: 60px;
   margin-top: 5%;
@@ -225,7 +217,7 @@ export default {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -600%;
-  background-color: #FF7A8A;
+  background-color: #D23535;
   border-radius: 4px;
   color: #FFF;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
@@ -261,7 +253,7 @@ export default {
   height: 0;
   border-left: 0 solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #FF7A8A;
+  border-bottom: 10px solid #D23535;
 }
 
 .subscribe-wrapper h4 {
@@ -271,7 +263,6 @@ export default {
   letter-spacing: 3px;
   padding-top: 25px;
   line-height: 28px;
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 .subscribe-wrapper input {
@@ -283,19 +274,18 @@ export default {
   width: 65%;
   background: transparent;
   transition: all .25s ease;
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 .subscribe-wrapper input:focus {
   outline: none;
-  border-bottom: 1px solid #FF7A8A;
+  border-bottom: 1px solid #D23535;
 }
 
 .subscribe-wrapper .submit-btn {
   position: absolute;
   border-radius: 20px 0 0 20px;
-  background-color: #FF7A8A;
-  border: 1px solid #FF7A8A;
+  background-color: #D23535;
+  border: 1px solid #D23535;
   color: #FFF;
   padding: 12px 25px;
   display: inline-block;
@@ -307,12 +297,10 @@ export default {
   cursor: pointer;
   transition: all .25s ease;
   box-shadow: -5px 6px 20px 0 rgba(51, 51, 51, 0.4);
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 .subscribe-wrapper .submit-btn:hover {
-  background-color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif;
+  background-color: #D23535;
 }
 
 @media (max-width: 500px){

@@ -58,29 +58,21 @@ export default {
 
 .section-alpha{
   display: flex;
+  align-content: center;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 4%;
+  padding-bottom: 5%;
   flex-direction: row-reverse;
-  padding-top: 10px;
+  padding-top: 2%;
 }
 
 .text-section-inner{
   display: flex;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  padding: 12px;
-  padding-top: 16px;
-  border-radius: 15px;
+  box-shadow: 0 0 5px #313131;
+  padding: 20px;
+  /*padding-top: 16px;*/
+  border-radius: 5px;
   margin-bottom: 10px;
-}
-.text-section-inner:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.text-section-inner:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
 }
 
 .text-section{
@@ -88,68 +80,59 @@ export default {
   padding-left: 20px;
   padding-right: 30px;
   color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
   padding-top: 1%;
 }
 
 .text-section-header{
   text-align: center;
   font-size: 32px;
-  color: #071333;
+  color: #ffffff;
   font-weight: bold;
   padding-top: 3%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .text-section-parah{
   text-align: center;
   font-size: 22px;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 
 i{
   font-size: 48px;
-  color: #FF7A8A;
+  color: #D23535;
   padding-right: 15px;
 }
 
 .about-image{
   width: 95%;
-  border-radius: 25px;
+  border-radius: 5px;
   margin-top: 30px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 
 .text-section-inner-text h4{
-  color: #071333;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .text-section-inner-text p{
   font-size: 18px;
   padding-right: 20px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .header-button{
   padding: 15px 60px;
-  background-color: #FF7A8A;
-  border: #FF7A8A;
-  border-radius: 15px;
-  margin-top: 10px;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  border-radius: 5px;
+  margin-top: 12px;
   color: white;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .header-button:hover {
-  background-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 4ms ease-in;
-}
-.header-button:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  transition: 4ms ease-in;
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
 }
 
 @media (max-width: 990px) {

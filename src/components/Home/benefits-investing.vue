@@ -39,16 +39,15 @@ export default {
 <style scoped>
 .section-2{
   height: 100%;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .section-2-header{
   text-align: center;
   padding-top: 6%;
   font-size: 32px;
-  background-color: rgba(242, 250, 253, 0.6);
-  font-family: GTEestiProDisplay-Regular,serif;
-  color: #071333;
+  background: rgba(34, 34, 34, 0.5);
+  color: #ffffff;
   margin-bottom: 0;
   font-weight: bold;
 }
@@ -59,7 +58,7 @@ export default {
   font-size: 18px;
   text-align: center;
   padding: 3% 8% 5%;
-  background-color: rgba(242, 250, 253, 0.6);
+  background: rgba(34, 34, 34, 0.5);
   color: #676767;
   margin-top: 0;
 }
@@ -69,16 +68,14 @@ export default {
   font-size: 28px;
   letter-spacing: 1px;
   padding-top: 20px;
-  font-family: GTEestiProDisplay-Regular,serif;
   font-weight: bold;
-  color: #071333;
+  color: #ffffff;
 }
 
 p{
-  font-family: GTEestiProDisplay-Light,serif;
   padding-top: 10px;
   line-height: 1.5;
-  color: #676767;
+  color: #ffffff;
 }
 
 .section-2-content-alpha{
@@ -93,30 +90,24 @@ p{
 
 
 .btn:hover {
-  background-color: #071333;
-  border-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 4ms ease-in;
-}
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
   transition: 4ms ease-in;
 }
 .btn-white {
-  background-color:  #FF7A8A;
-  border-color: #FF7A8A;
+  background-color:  #D23535;
+  border: 1px solid #D23535;
   color: white;
-  font-size: 15px;
-  font-family: GTEestiProDisplay-Regular,serif;
+  font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 50px;
+  padding: 10px 45px;
   margin-top: 10%;
   display: inline-block;
   transition: all .2s;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 @media (max-width: 990px) {

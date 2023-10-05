@@ -42,60 +42,54 @@ export default {
 .section-1{
   display: flex;
   justify-content: space-around;
+  margin-top: 2%;
 }
+
 .trust-header{
   text-align: center;
   padding-bottom: 10px;
-  color: #071333;
+  color: #fff;
   font-size: 32px;
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .trust-text{
   text-align: center;
   padding-bottom: 20px;
   font-size: 20px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #fff;
 }
 
 img{
   width: 90%;
   margin-left: 5%;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .section{
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px #313131;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-left: 2%;
   margin-right: 2%;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 40px 15px;
 }
+
 .section:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 5px #313131;
   transition: 4ms ease-in;
 }
-.section:active {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
+
 .section h3{
   text-align: center;
   padding-top: 20px;
-  color: #071333;
+  color: #fff;
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .section p{
   text-align: center;
-  color: #071333;
+  color: #fff;
   font-size: 18px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .trusted-alpha{
   padding-top: 5%;

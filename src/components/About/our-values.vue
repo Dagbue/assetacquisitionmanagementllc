@@ -46,20 +46,15 @@ export default {
 
 .section-header-1{
   font-size: 32px;
-  color: #071333;
+  color: #FFFFFF;
   font-weight: bold;
   padding-top: 3%;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
-
 }
 
 .landing-page-testimonial{
   padding: 0 8% 5%;
 }
-
-
-
 
 
 .testimony-image{
@@ -91,20 +86,18 @@ export default {
 
 
 .landing-page-testimonial-text .one{
-  font-family: GTEestiProDisplay-Regular, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: rgba(25, 40, 80, 1);
+  color: #ffffff;
   margin: 0;
 }
 
 .landing-page-testimonial-text .two{
-  font-family: GTEestiProDisplay-Regular, sans-serif;
   font-size: 25px;
   line-height: 21px;
   letter-spacing: 0;
   text-align: left;
-  color: rgba(25, 40, 80, 1);
+  color: #ffffff;
   padding-bottom: 40px;
   margin: 0;
   font-weight: 700;

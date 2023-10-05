@@ -160,49 +160,40 @@ export default {
 .section-1-header{
   width: 25%;
   font-size: 32px;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 .section-1-para{
   width: 35%;
   font-size: 17px;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
   line-height: 1.5;
 }
 .section-1-btn{
   width: 20%;
-  padding: 5px 15px;
+  padding: 0 15px;
   margin-right: 20px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: #FF7A8A;
-  border: 1px solid #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
   font-size: 16px;
 }
 
 .section-1-btn:hover{
-  background-color: #071333;
-  border: 1px solid #FF7A8A;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 i{
   font-size: 24px;
-  color: #FF7A8A;
+  color: #D23535;
 }
 
 span{
   font-weight: 700;
   font-size: 20px;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-h2{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 h3{
   color: #FFFFFF;
@@ -213,16 +204,16 @@ h3{
   padding: 10px 20px;
   margin-right: 50px;
   margin-left: 50px;
-  border-radius: 12px;
+  border-radius: 5px;
   font-size: 15px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .btn-sub:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -232,10 +223,10 @@ h3{
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 3%;
 }
 
 label{
-  font-family: GTEestiProDisplay-Regular,serif ;
   font-size: 20px;
   text-align: center;
   padding-top: 5px;
@@ -245,49 +236,46 @@ label{
 select{
   padding-top: 7px;
   padding-bottom: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 7%;
   font-weight: bold;
 }
 
 option{
-  font-family: GTEestiProDisplay-Regular,serif ;
   padding-bottom: 22px;
   font-size: 16px;
 }
 
 .box{
-  background-color: #282E3BC7;
-  padding: 60px;
-  padding-left: 80px;
-  padding-right: 80px;
-  border-radius: 15px;
+  /*background-color: #071333;*/
+  box-shadow: 0 0 12px #313131;
+  padding: 90px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
   margin-bottom: 12px;
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-top: 1%;
+  margin-top: 3%;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
+  margin-right: 2%;
+  margin-left: 2%;
 }
-/*.box:hover {*/
-/*  transform: translateY(-3px);*/
-/*  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);*/
-/*  transition: 4ms ease-in;*/
-/*}*/
-/*.box:active {*/
-/*  transform: translateY(-1px);*/
-/*  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);*/
-/*  transition: 4ms ease-in;*/
-/*}*/
+.box:hover {
+  box-shadow: 0 0 12px #313131;
+  transition: 4ms ease-in;
+}
 
 .section-alpha{
   display: flex;
   justify-content: space-evenly;
 }
 
+.section-alpha-1{
+  display: block;
+  text-align: center;
+}
 
 .color-header{
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -297,23 +285,28 @@ option{
 }
 
 .text{
-  color: #fff;
+  color: white;
   padding-bottom: 10px;
+  padding-top: 10px;
   font-size: 17px;
   border-bottom: 4px solid #626B7F;
   letter-spacing: 1.5px;
 }
 
 .text-1{
-  color: #fff;
+  color: white;
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+
+
+
+
 @media (max-width: 990px) {
   .section-1-header{
     width: 20%;
     font-size: 28px;
-    font-family: GTEestiProDisplay-Regular,serif ;
   }
 }
 
@@ -333,7 +326,7 @@ option{
     width: unset;
     padding: 10px 22px;
     margin-right: unset;
-    border-radius: 12px;
+    border-radius: 5px;
     font-size: 14px;
   }
   .section-alpha{

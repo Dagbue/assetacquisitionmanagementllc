@@ -2,7 +2,7 @@
   <form class="logoIn" @submit.prevent="handleSubmit">
     <div class="wrapper">
       <div class="headline">
-        <h1>SIGN IN</h1>
+        <h1>Sign In</h1>
         <h2>
           With Your
           <span class="header-span">Asset Acquisition & Management </span> LLC Account
@@ -95,11 +95,7 @@ form {
   margin: 2rem auto;
   max-width: 40rem;
   border-radius: 12px;
-  /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
-  box-shadow:  30px 30px 100px #bebebe,
-  -50px -50px 100px #ffffff;
   padding: 2rem;
-  background-color: #ffffff;
 }
 
 :root {
@@ -113,11 +109,12 @@ form {
   position: relative;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 5px #313131;
+  background: rgba(34, 34, 34, 1);
 }
 
 .header-span {
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #D23535;
 }
 
 .wrapper {
@@ -150,7 +147,7 @@ form {
   font-size: 30px;
   font-weight: 500;
   line-height: 52px;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .headline h2 {
@@ -160,7 +157,7 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .form {
@@ -171,7 +168,6 @@ form {
 
 .wrapper .form-group {
   margin-bottom: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .wrapper .form-group input {
@@ -202,13 +198,12 @@ form {
 .btn-white,
 .btn-animated {
   width: 100%;
-  margin: 15px 0 30px;
-  line-height: 22px;
+  line-height: 35px;
   padding: 12px 29px;
   text-transform: uppercase;
   border: none;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .btn:link,
@@ -217,25 +212,22 @@ form {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
 }
 .btn:hover {
-  background-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
   transition: 4ms ease-in;
 }
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  transition: 4ms ease-in;
-}
+
 .btn-white {
-  background-color: #FF7A8A;
-  color: white;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  color: #FFFFFF;
   font-size: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .form-group-2 {
@@ -245,14 +237,14 @@ form {
 
 .checkbox-text {
   padding-left: 8px;
-  font-family: GTEestiProDisplay-light, serif;
+  color: #FFFFFF;
 }
 
 .forgot-password {
   padding-left: 110px;
   text-decoration: none;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-bold, serif;
+  color: #D23535;
+  font-size: 14.5px;
 }
 
 .separator {
@@ -264,29 +256,25 @@ form {
 .separator .line {
   height: 1px;
   flex: 0.5;
-  background-color: #676767;
+  background-color: #ffffff;
 }
 
 .separator h2 {
   padding: 0 1rem;
   font-size: 13px;
-  color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 
 .create-acc {
   padding-top: 40px;
   font-size: 17px;
   padding-bottom: 40px;
-}
-.create-text {
-  font-family: GTEestiProDisplay-bold, serif;
+  color: #FFFFFF;
 }
 .create-link {
   padding-left: 10px;
   text-decoration: none;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-bold, serif;
+  color: #D23535;
 }
 
 @media (max-width: 1030px) {

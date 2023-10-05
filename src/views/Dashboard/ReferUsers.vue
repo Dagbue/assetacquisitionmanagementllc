@@ -37,10 +37,10 @@
 
       </div>
     </div>
-    <div class="content-sep">
-      <hr class="line">
-      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-    </div>
+<!--    <div class="content-sep">-->
+<!--      <hr class="line">-->
+<!--      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--    </div>-->
   </div>
 </dash-content>
 </template>
@@ -58,38 +58,34 @@ export default {
   padding-top: 30px;
   font-size: 22px;
   text-align: center;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 .support{
   text-align: center;
   padding-right: 6%;
   padding-top: 5%;
   padding-bottom: 3%;
-  background-color: #282E3BC7;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 3%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .support-header{
   font-size: 22px;
   padding-bottom: 10px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #FFFFFF;
 }
 .support-subheader{
   font-size: 20px;
   padding-bottom: 10px;
   text-decoration: none;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #FFFFFF;
 }
 p{
   font-size: 17px;
   padding-bottom: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .user{
   padding-top: 25px;
@@ -99,53 +95,79 @@ p{
 }
 .user-1{
   font-size: 18px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #FFFFFF;
 }
 .history-header{
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 20px;
   font-size: 23px;
-  font-family: GTEestiProDisplay-Bold,serif ;
-  color: #071333;
+  color: #FFFFFF;
 }
+
 .fields-alpha{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  /*box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);*/
+  /*background-color: #282E3BC7;*/
   padding-top: 20px;
-  background-color: #282E3BC7;
   padding-bottom: 50px;
   margin-left: 3%;
-  margin-right: 3%;
-  border-radius: 12px;
+  margin-right: 2%;
+  border-radius: 15px;
+  text-align: center;
 }
 hr{
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 1%;
 }
-.content-sep {
-  margin-top: 5%;
-  color: white;
-  margin-left: 2%;
-  margin-right: 2%;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
-.foot{
+.table{
+  /*margin-left: 2%;*/
+  /*margin-right: 3%;*/
+  /*margin-top: 2%;*/
+}
+
+tr{
+  border: 1px solid #E3EBF6;
+}
+
+th {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
   text-align: center;
-  padding-top: 5px;
 }
+
+td {
+  /*border: 1px solid #E3EBF6;*/
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 12px 8px;
+  /*letter-spacing: 1px;*/
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 15px;
+  /*border-bottom: 1px solid #E3EBF6;*/
+}
+
+tr td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content:counter(Serial); /* Display the counter */
+}
+
 span{
-  color: #FF7A8A;
+  color: #D23535;
 }
-th{
-  color: #071333;
-  text-align: center;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-td{
-  color: white;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
+
 @media (max-width: 990px) {
   .header-alpha{
     padding-top: 25px;

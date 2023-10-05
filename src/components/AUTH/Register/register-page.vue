@@ -465,11 +465,8 @@ export default {
 form {
   margin: 2rem auto;
   max-width: 40rem;
-  border-radius: 12px;
-  box-shadow:  30px 30px 100px #bebebe,
-  -50px -50px 100px #ffffff;
-  padding: 1rem;
-  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2rem;
 }
 
 :root {
@@ -484,11 +481,12 @@ form {
   align-items: center;
   justify-content: center;
   /*min-height: 100vh;*/
+  box-shadow: 0 0 5px #313131;
+  background: rgba(34, 34, 34, 1);
 }
 
 .header-span {
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #D23535;
 }
 
 .wrapper {
@@ -522,7 +520,7 @@ form {
   font-size: 30px;
   font-weight: 500;
   line-height: 30px;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .headline h2 {
@@ -532,7 +530,7 @@ form {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #FFFFFF;
 }
 
 .wrapper .form {
@@ -602,7 +600,7 @@ form {
   text-transform: uppercase;
   border: none;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .btn:link,
@@ -611,25 +609,22 @@ form {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
 }
 .btn:hover {
-  background-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
   transition: 4ms ease-in;
 }
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  transition: 4ms ease-in;
-}
+
 .btn-white {
-  background-color: #FF7A8A;
-  color: white;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  color: #FFFFFF;
   font-size: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .form-group-2 {
@@ -642,20 +637,18 @@ form {
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .form-group-3-para{
   font-size: 14px;
   padding-bottom: 3px;
-  color: darkred;
+  color: rgba(139, 0, 0, 0.1);
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .checkbox-text {
-  font-family: GTEestiProDisplay-light, serif;
   padding-left: 10px;
+  color: #FFFFFF;
 }
 .checkbox{
   margin-top: 5px;
@@ -669,35 +662,31 @@ form {
 .separator .line {
   height: 1px;
   flex: 0.5;
-  background-color: #676767;
+  background-color: #ffffff;
 }
 
 .separator h2 {
   padding: 0 1rem;
   font-size: 15px;
-  color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 
 .create-acc {
   padding-top: 40px;
   font-size: 17px;
   padding-bottom: 40px;
+  color: #FFFFFF;
 }
-.create-text {
-  font-family: GTEestiProDisplay-light, serif;
-}
+
 .create-link {
   padding-left: 10px;
   text-decoration: none;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #D23535;
 }
 
 .terms {
   text-decoration: none;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #D23535;
 }
 
 @media (max-width: 1030px) {
@@ -719,9 +708,12 @@ form {
 
 .wrapper .headline p {
   padding-top: 15px;
-  color: darkred;
-  font-family: GTEestiProDisplay-light, serif;
+  color: rgba(139, 0, 0, 0.7);
   font-weight: bold;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

@@ -10,10 +10,10 @@
     <p>You can  mail us at:</p>
     <a href="mailto:support@assetacquisitionmanagementllc.com" class="para-last">support@assetacquisitionmanagementllc.com</a>
   </div>
-  <div class="content-sep">
-    <hr>
-    <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-  </div>
+<!--  <div class="content-sep">-->
+<!--    <hr>-->
+<!--    <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--  </div>-->
 </dash-content>
 </template>
 
@@ -31,50 +31,45 @@ export default {
   text-align: center;
   padding-top: 7%;
   padding-bottom: 5%;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   margin-left: 10%;
   margin-right: 8%;
-  margin-top: 5%;
-  border-radius: 15px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  margin-top: 10%;
+  border-radius: 5px;
+  color: #FFFFFF;
 }
 .support-header{
   font-size: 25px;
   padding-bottom: 10px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #FFFFFF;
 }
 .support-subheader{
   font-size: 20px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 i{
   font-size: 47px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #FFFFFF;
 }
 i:hover{
-  color: #f25961;
+  color: #D23535;
 }
 p{
   font-size: 17px;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 
 .para-last{
   font-size: 20px;
   list-style: none;
   text-decoration: none;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #FFFFFF;
 }
 
-a{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
+/*a{*/
+/*  font-family: GTEestiProDisplay-Regular,serif ;*/
+/*}*/
 .para-last:hover{
-  color: #f25961;
+  color: #D23535;
   font-size: 22px ;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
@@ -82,15 +77,14 @@ a{
 
 .content-sep, hr{
   margin-top: 25%;
-  color: #071333;
+  color: #FFFFFF;
   margin-left: 2%;
   margin-right: 2%;
 }
 
 .foot{
   text-align: center;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #ffffff;
 }
 @media (max-width: 990px) {
   .support-header{
@@ -105,12 +99,10 @@ a{
   }
   p{
     font-size: 15px;
-    font-family: GTEestiProDisplay-Regular,serif ;
   }
   .para-last{
     padding-bottom: 10%;
     font-size: 20px;
-    font-family: GTEestiProDisplay-Bold,serif ;
   }
   .content-sep, hr{
     margin-left: unset;

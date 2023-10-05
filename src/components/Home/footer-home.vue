@@ -100,7 +100,7 @@ export default {
 
 <style scoped>
 .the-footer {
-  background-color: #071333;
+  background: rgba(34, 34, 34, 0.4);
   color: #ffffff;
   padding: 4vh  2vh;
   margin-top: 3%;
@@ -115,7 +115,6 @@ export default {
   font-size: 22px;
   line-height: 20px;
   padding-bottom: 5px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .footer-link {
@@ -124,7 +123,6 @@ export default {
   line-height: 25px;
   opacity: 0.8;
   padding-top: 10px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .footer-link-container {
@@ -145,7 +143,6 @@ export default {
   flex-direction: column;
   padding-top: 20px;
   width: 100%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .social-logo {
 }
@@ -165,7 +162,6 @@ hr {
   text-align: center;
   opacity: 0.75;
   margin-top: 20px;
-  font-family: GTEestiProDisplay-Regular, serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -176,12 +172,9 @@ a {
   text-decoration: none;
   color: white;
   transition: ease 0.3s;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 a:hover{
-  color: #FFFFFF;
-  font-size: 22px;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #D23535;
 }
 
 .bit{
@@ -195,17 +188,13 @@ a:hover{
 .last-div{
   display: flex;
   margin-bottom: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .last-div-para{
   font-size: 16px;
   padding-left: 10px;
   line-height: 1.3;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
-p{
-  font-family: GTEestiProDisplay-Regular, serif;
-}
+
 .footer-title{
   color: #fff;
   /*font-size: 30px;*/

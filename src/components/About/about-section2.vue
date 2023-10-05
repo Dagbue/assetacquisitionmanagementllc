@@ -1,9 +1,10 @@
 <template>
   <div class="alpha">
     <p class="about-text-1">About Company</p>
-    <h5 class="about-header-1">We Help Our Clients To Achieve Their Desire Goals</h5>
+    <h4 class="about-header-1">We Help Our Clients To Achieve Their Desire Goals</h4>
     <p class="about-text-2"> Asset Acquisition & Management, LLC is a well-developed, secure, and, dependable digital
       Investment platform based on Bittrex's cutting-edge innovation.</p>
+
     <div class="about-alpha">
       <div class="about-section-1">
 
@@ -32,6 +33,7 @@
       </div>
 
     </div>
+
   </div>
 
 </template>
@@ -44,17 +46,19 @@ export default {
 
 <style scoped>
 .alpha{
-  background-color: #f0f2f4;
+  background: rgba(34, 34, 34, 0.5);
 }
 
 .about-alpha{
   display: flex;
+  align-items: center;
+  align-content: center;
   flex-direction: row-reverse;
   padding-bottom: 5%;
 }
 .about-image{
   width: 100%;
-  border-radius: 25px;
+  border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
   margin-left: 10%;
   margin-top: 15%;
@@ -66,81 +70,44 @@ export default {
 }
 .about-content-text{
   padding-left: 20px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .about-content-text p{
   font-size: 17px;
   line-height: 1.7;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #FFFFFF;
 }
 .about-section-1{
   width: 80%;
   padding-right: 7%;
   color: #071333;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
-.bx-line-chart{
-  font-size: 30px;
-}
+
 .box{
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 12px;
   margin-top: 5%;
   margin-left: 10%;
   position: relative;
-  background-color: white;
-}
-.box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.box:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
+  background-color: #121212;
 }
 
 .about-text-1{
   text-align: center;
   font-size: 32px;
-  color: #071333;
+  color: #ffffff;
   font-weight: bold;
   padding-top: 4%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .about-header-1{
   text-align: center;
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 .about-section-2{
   padding-left: 5%;
-}
-
-.header-button{
-  padding: 15px 50px;
-  background-color: #071333;
-  border: #071333;
-  border-radius: 15px;
-  margin-top: 5px;
-  color: white;
-  margin-left: 40px;
-  font-family: GTEestiProDisplay-Regular, serif;
-}
-
-.header-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.header-button:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
 }
 
 
@@ -154,10 +121,11 @@ i{
   font-size: 25px;
   color: #071333;
 }
+
 .about-text-2{
   text-align: center;
   font-size: 17px;
-  color: rgba(125, 144, 184, 1);
+  color: #ffffff;
 }
 
 @media (max-width: 990px) {

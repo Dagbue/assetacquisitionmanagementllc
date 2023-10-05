@@ -2,9 +2,9 @@
   <div class="outer">
 
     <div v-if="user" class="sidebar" v-show="!mobile">
-<!--      <img src="@/assets/companylogo.svg" alt="logo" class="footer-img" />-->
-      <div class="user">Welcome To</div>
-      <div class="user">Asset Acquisition & Management, LLC</div>
+      <img src="@/assets/companylogo.svg" alt="logo" class="footer-img" />
+<!--      <div class="user">Welcome To</div>-->
+<!--      <div class="user">Asset Acquisition & Management, LLC</div>-->
       <ul class="nav-list">
 
         <li>
@@ -254,8 +254,8 @@ body{
   left: 0;
   height: 100vh;
   width: 300px;
-  background: #071333;
-  border: 2px solid black;
+  background: rgba(34, 34, 34, 1);
+  /*border: 2px solid black;*/
   padding: 6px 20px 37px;
 }
 
@@ -284,7 +284,6 @@ img{
   padding-left: 50px;
   font-size: 18px;
   color: black;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .sidebar ul li .bx-search-alt{
   position: absolute;
@@ -298,15 +297,15 @@ img{
   align-items: center;
   text-decoration: none;
   transition: all 0.4s ease;
-  border-radius: 12px;
+  border-radius: 5px;
   font-size: 16px;
 }
 .sidebar ul li a:hover{
-  color: #FF7A8A;
+  color: #D23535;
   background: aliceblue;
 }
 .sidebar ul li a:active{
-  color: #FF7A8A;
+  color: #D23535;
   background: aliceblue;
 }
 .sidebar ul li  i{
@@ -321,33 +320,27 @@ i{
 }
 
 .logout:hover {
-  background-color: #FB4E4E;
-  border-color: #FB4E4E;
+  color: #071333;
+  background-color: #ffffff;
+  border: 1px solid #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 
-.logout:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-}
 .logout{
   padding: 11px 70px;
   margin-left: 30px;
   margin-top: 10px;
-  border-radius: 12px;
+  border-radius: 5px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border: 1px solid #D23535;
 }
 .user{
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
   padding-top: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 .back-login{
   margin-right: 40px;
@@ -355,10 +348,9 @@ i{
   padding: 50px;
   text-decoration: none;
   font-size: 20px;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #fff;
   background-color: #282E3BC7;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .back-home{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -367,9 +359,8 @@ i{
   text-decoration: none;
   font-size: 20px;
   background-color: #282E3BC7;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 
 .nav-list{
@@ -382,9 +373,8 @@ i{
   display: flex;
 }
 .links-name{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
 
+}
 
 
 .dropdown-nav-2{
@@ -399,7 +389,7 @@ i{
   width: 100%;
   max-width: 280px;
   height: 100%;
-  background-color: #071333;
+  background-color: #344054;
   font-size: 17px;
   text-align: center;
 }
@@ -407,8 +397,8 @@ i{
 .dropdown-nav-2 li {
   overflow: hidden;
   list-style: none;
-  font-family: GTEestiProDisplay-Regular, serif;
   font-weight: bold;
+  height: 12%;
 }
 
 .dropdown-nav-2 ul {
@@ -417,13 +407,12 @@ i{
 
 .dropdown-nav-2 a {
   padding: 0.3em 0;
-  color: #676767;
+  color: #ffffff;
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
   margin: 0;
   text-decoration: none;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .dropdown-nav-2 a:before,
@@ -439,13 +428,13 @@ i{
   bottom: 100%;
   left: 0;
   content: attr(data-hover);
-  color: #676767;
+  color: #ffffff;
   white-space: nowrap;
 }
 
 .dropdown-nav-2 li:hover a,
 .dropdown-nav-2.current a {
-  color: #FF7A8A;
+  color: #D23535;
 }
 
 .logo-container {
@@ -454,12 +443,14 @@ i{
 .footer-img {
   width: 80%;
   border-radius: 18px;
+  padding-top: 10px;
 }
 
 .bx-menu{
   font-size: 38px;
   cursor: pointer;
   transition: .8s ease all;
+  color: #FFFFFF;
 }
 .icon-active{
   transform: rotate(180deg);

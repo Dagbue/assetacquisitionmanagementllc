@@ -147,24 +147,23 @@ export default {
 
 <style scoped>
 .user-info-main{
-  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.8);
-  background-color: #071333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   text-align: center;
   margin: 1rem auto;
   max-width: 40rem;
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 2rem;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 .fields-alpha{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #071333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   padding-top: 20px;
   padding-bottom: 50px;
   margin-left: 3%;
   margin-right: 3%;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-top: 3%;
 }
 
@@ -172,7 +171,6 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 .user-info-header{
@@ -180,8 +178,7 @@ export default {
   margin-bottom: 2%;
   font-size: 27px;
   text-align: center;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 
 .user-info-text-1{
@@ -189,12 +186,11 @@ export default {
   font-weight: 700;
   padding-right: 10px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 
 .user-info-text-2{
   background-color: #FFFFFF;
-  color: #071333;
+  color: #D23535;
   padding: 8px 30px;
   font-size: 18px;
   border-radius: 5px;
@@ -204,10 +200,10 @@ export default {
 form {
   margin: 5rem auto;
   max-width: 40rem;
-  border-radius: 12px;
-  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
   padding: 2rem;
-  background-color: #071333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
 }
 
 :root {
@@ -224,8 +220,7 @@ form {
 }
 
 .header-span {
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #D23535;
 }
 
 .wrapper {
@@ -253,18 +248,15 @@ form {
   text-align: center;
   padding-bottom: 30px;
   color: #fff;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 .wrapper .headline h1 {
   font-size: 30px;
   line-height: 50px;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 .wrapper .headline h2 {
   font-size: 28px;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 .wrapper .form {
@@ -275,7 +267,6 @@ form {
 
 .wrapper .form-group {
   margin-bottom: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
   color: black;
 }
 input{
@@ -316,7 +307,7 @@ input{
   text-transform: uppercase;
   border: none;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .btn:link,
@@ -325,34 +316,27 @@ input{
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
 }
 .btn:hover {
-  transform: translateY(-3px);
-  border-color: #f25961;
-  background-color: #f25961;
+  color: #071333;
+  background-color: #ffffff;
+  border-color: #D23535;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.btn:active {
-  transform: translateY(-1px);
-  border-color: #f25961;
-  background-color: #f25961;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
 .btn-white {
-  background-color: #FF7A8A;
   color: white;
+  background-color: #D23535;
+  border-color: #D23535;
   font-size: 15px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .separator h2 {
   padding: 0 1rem;
   font-size: 15px;
-  color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 
 @media (max-width: 1030px) {

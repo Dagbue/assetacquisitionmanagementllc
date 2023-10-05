@@ -70,6 +70,8 @@ export default {
   background-position: center;
   position: relative;
   display: flex;
+  align-items: center;
+  align-content: center;
 }
 
 .text-box {
@@ -83,7 +85,6 @@ export default {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
-  font-family: GTEestiProDisplay-Regular,serif;
   letter-spacing: 1px;
   padding-bottom: 0;
 }
@@ -93,7 +94,6 @@ export default {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
-  font-family: GTEestiProDisplay-Regular,serif;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
@@ -101,10 +101,9 @@ export default {
 .heading-primary-sub {
   font-size: 17px;
   font-weight: 400;
-  color: white;
+  color: #fff;
   padding-left: 15%;
   padding-right: 15%;
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 
@@ -115,20 +114,17 @@ iframe{
 
 .text-box{
   width: 50%;
-  margin-top: 3%;
 }
 
 .text-box-2{
   width: 50%;
   text-align: center;
-  margin-top: 3%;
 }
 .benefit-header{
   display: block;
   font-size: 22px;
   font-weight: bold;
-  color: #Fff;
-  font-family: GTEestiProDisplay-Regular,serif;
+  color: #fff;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
@@ -139,14 +135,12 @@ iframe{
   color: white;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 
 .list-alpha{
   list-style: none;
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular,serif;
   font-size: 18px;
   margin-top: 2%;
   margin-bottom: 6%;
@@ -163,7 +157,6 @@ iframe{
   border-radius: 7px;
   margin-bottom: 15px;
   margin-left: 19%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .list-item::before{

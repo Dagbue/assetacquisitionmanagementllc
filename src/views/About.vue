@@ -30,7 +30,15 @@ export default {
   name: "About",
   components: {
     PartnersHome,
-    FooterHome, Reassurance, OurValues, WhatWeOffer, AboutSection3, AboutSection2, AboutSection1, AboutHeader},
+    FooterHome,
+    Reassurance,
+    OurValues,
+    WhatWeOffer,
+    AboutSection3,
+    AboutSection2,
+    AboutSection1,
+    AboutHeader
+  },
 }
 </script>
 

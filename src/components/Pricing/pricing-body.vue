@@ -1,8 +1,8 @@
 <template>
 <div class="alpha">
   <div class="section-alpha-1">
-    <h3 class="header">Choose An Investment Plan</h3>
-    <i class='bx bx-filter'></i>
+    <h1 class="header">Choose An Investment Plan</h1>
+<!--    <i class='bx bx-filter'></i>-->
   </div>
 
 <div class="section-alpha">
@@ -69,7 +69,6 @@ body{}
 
 .alpha{
   padding-top: 5%;
-  background-color: #f0f2f4;
   padding-bottom: 5%;
 }
 
@@ -79,32 +78,23 @@ body{}
 }
 
 .header{
-  color: #FF7A8A;
+  color: #ffffff;
   letter-spacing: 1px;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 .box{
-  background-color: #071333;
-  box-shadow:  20px 20px 60px #d9d9d9,
-  -20px -20px 60px #ffffff;
-  padding: 60px;
+  /*background-color: #071333;*/
+  box-shadow: 0 0 12px #313131;
+  padding: 90px;
   padding-left: 80px;
   padding-right: 80px;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 12px;
   margin-top: 3%;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.box:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 12px #313131;
   transition: 4ms ease-in;
 }
 
@@ -119,7 +109,7 @@ body{}
 }
 
 .color-header{
-  color: #FF7A8A;
+  color: #ffffff;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -142,23 +132,17 @@ body{}
   letter-spacing: 1px;
 }
 
-.btn:link,
-.btn:visited {
-}
+
 .btn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-}
-.btn:active {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  background-color:  #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
 }
 .btn-white {
-  background-color:  #FF7A8A;
-  border-color: #FF7A8A;
+  background-color:  #D23535;
+  border: 1px solid #D23535;
   color: white;
   font-size: 15px;
-  font-family: GTEestiProDisplay-Regular,serif;
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 50px;
@@ -166,7 +150,7 @@ body{}
   display: inline-block;
   transition: all .2s;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 @media (max-width: 990px) {

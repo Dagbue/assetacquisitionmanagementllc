@@ -31,10 +31,9 @@ export default {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .download-app-intro{
-  font-family: GTEestiProDisplay-Regular,serif;
   margin-top: 5%;
   margin-left: 2%;
 }
@@ -44,7 +43,6 @@ export default {
   font-size: 28px;
   line-height: 40px;
   color: white;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .download-sub{
@@ -52,7 +50,6 @@ export default {
   font-size:19px;
   line-height: 25px;
   padding-top: 2%;
-  font-family: GTEestiProDisplay-Regular,serif;
 }
 
 @media (max-width: 990px) {

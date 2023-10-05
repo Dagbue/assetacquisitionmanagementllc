@@ -12,10 +12,6 @@
           </transition>
         </router-view>
       </div>
-      <div class="content-sep">
-        <hr>
-        <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-      </div>
     </div>
   </dash-content>
 </template>
@@ -36,77 +32,52 @@ export default {
 .header-settings{
   padding-bottom: 20px;
   font-size: 23px;
-  text-transform: uppercase;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 .settings-links{
   margin-top: 2%;
 }
 .account-links{
   text-decoration: none;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
-  padding: 18px 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 10px 35px;
   margin-right: 2%;
-  color: #071333;
+  color: #ffffff;
   text-transform: uppercase;
-  border-radius: 12px;
-  font-size: 17px;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .account-links:hover{
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
+  background-color: #D23535;
+  border-color: #D23535;
   color: #fff;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.account-links:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-}
+
 .account-links-last{
   text-decoration: none;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
-  padding: 18px 35px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 10px 35px;
   margin-right: 2%;
-  color: #071333;
+  color: #ffffff;
   text-transform: uppercase;
-  border-radius: 12px;
-  font-size: 17px;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .account-links-last:hover{
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
+  background-color: #D23535;
+  border-color: #D23535;
   color: #fff;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
 
-.account-links-last:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-}
-.content-sep, hr{
-  margin-top: 25%;
-  color: #071333;
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
-.foot{
-  text-align: center;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
 @media (max-width: 990px) {
 
   .content-sep, hr{

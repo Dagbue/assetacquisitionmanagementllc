@@ -31,10 +31,10 @@ dialog {
   height: 30rem;
   left: calc(50% - 10rem);
   margin: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  border-radius: 5px;
   padding: 2rem;
-  background-color: #282E3BC7;
   z-index: 100;
   border: none;
   animation: modal 0.3s ease-out forwards;

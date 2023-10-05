@@ -131,22 +131,23 @@ const routes = [
           },
         ]
       },
+
       {
         path: "/deposit",
         name: "Deposit",
         component: () =>
             import(/* webpackChunkName: "Deposit" */ "../views/Dashboard/Deposit"),
         meta: { hideNavigation: true },
-        children: [
-          {
-            path: "/bitcoin",
-            name: "Bitcoin",
-            component: () =>
-                import(/* webpackChunkName: "Bitcoin" */ "../views/Dashboard/Bitcoin"),
-            meta: { hideNavigation: true },
-          },
-        ]
       },
+
+      {
+        path: "/bitcoin",
+        name: "Bitcoin",
+        component: () =>
+            import(/* webpackChunkName: "Bitcoin" */ "../views/Dashboard/Bitcoin"),
+        meta: { hideNavigation: true },
+      },
+
       {
         path: "/withdrawal",
         name: "Withdrawal",

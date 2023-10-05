@@ -32,7 +32,7 @@ dialog {
   left: calc(50% - 10rem);
   margin: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 2rem;
   background-color: #282E3BC7;
   z-index: 100;

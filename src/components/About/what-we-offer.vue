@@ -58,46 +58,32 @@ export default {
 <style scoped>
 
 .section-alpha{
-  background-color: #f0f2f4;
+  background: rgba(34, 34, 34, 0.5);
   padding-bottom: 4%;
 }
 
 .section-header{
   font-size: 18px;
-  color: #FF7A8A;
+  color: #FFFFFF;
   text-align: center;
   font-weight: 300;
   margin-left: 20%;
   margin-right: 20%;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 .section-header-1{
   font-size: 32px;
-  color: #071333;
+  color: #FFFFFF;
   font-weight: bold;
   padding-top: 3%;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .box{
-  background-color: #ffffff;
-  box-shadow:  20px 20px 60px #d9d9d9,
-  -20px -20px 60px #ffffff;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 12px;
   margin-top: 4%;
-}
-.box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.box:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
+  box-shadow: 0 0 5px #313131;
 }
 
 
@@ -134,15 +120,13 @@ export default {
 
 .box h5{
   padding-top: 20px;
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
   font-weight: bold;
   text-align: center;
 }
 
 .box p{
-  font-family: GTEestiProDisplay-Regular, serif;
-  color: #071333;
+  color: #ffffff;
   text-align: center;
 }
 

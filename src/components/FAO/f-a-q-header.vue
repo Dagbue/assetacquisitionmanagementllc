@@ -35,8 +35,8 @@ export default {
   text-shadow: 1px 1px 1px #333;
   background-image:
       linear-gradient(to right bottom,
-      rgba(5, 5, 33, .8),
-      rgba(5, 5, 33, .8)),
+      rgba(34, 34, 34, 0.7),
+      rgba(34, 34, 34, 0.7)),
       url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   background-position: center;
@@ -47,7 +47,6 @@ export default {
 .overlay-header1 {
   padding-top: 40px;
   font-size: 35px;
-  font-family: GTEestiProDisplay-Regular,serif;
   letter-spacing: 5px;
 }
 

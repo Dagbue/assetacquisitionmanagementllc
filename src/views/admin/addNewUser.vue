@@ -118,10 +118,10 @@ export default {
 form {
   margin: 2rem auto;
   max-width: 40rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
   padding: 2rem;
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
 }
 
 :root {
@@ -168,13 +168,11 @@ form {
   font-size: 39px;
   font-weight: 500;
   line-height: 30px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .wrapper .headline h2 {
   font-weight: 400;
   font-size: 30px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .wrapper .form {
@@ -220,7 +218,6 @@ form {
   text-transform: uppercase;
   border: none;
   text-align: center;
-  border-radius: 20px;
 }
 
 .btn:link,
@@ -229,41 +226,31 @@ form {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
 }
 .btn:hover {
-  background-color: #071333;
-  border-color: #071333;
-  color: #fff;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-}
-.btn:active {
-  background-color: #071333;
-  border-color: #071333;
-  color: #fff;
+  background-color: #ffffff;
+  border:1px solid #D23535;
+  color: #071333;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 .btn-white {
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  color: white;
+  background-color: #D23535;
+  border:1px solid #D23535;
+  color: #fff;
   font-size: 15px;
   margin-top: 2%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 
 .separator h2 {
   padding: 0 1rem;
   font-size: 15px;
-  color: #676767;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 
 @media (max-width: 1030px) {
@@ -285,8 +272,7 @@ form {
 
 .wrapper .headline p {
   padding-top: 15px;
-  color: darkred;
-  font-family: GTEestiProDisplay-light, serif;
+  color: #D23535;
 }
 
 
@@ -295,7 +281,6 @@ form {
   font-size: 27px;
   padding-bottom: 10px;
   text-align: center;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 </style>

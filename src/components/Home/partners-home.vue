@@ -49,15 +49,13 @@ h1{
   padding-top: 4%;
   padding-bottom: 1%;
   margin-bottom: 0;
-  color: #071333;
-  font-family: GTEestiProDisplay-Bold, serif;
+  color: #fff;
 }
 
 .section-alpha{
   padding-bottom: 5%;
   padding-top: 0;
   margin-top: 0;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .section-1{
@@ -65,7 +63,6 @@ h1{
   justify-content: center;
   padding-top: 30px;
   margin-left: 4%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 @media (max-width: 500px) {
@@ -79,7 +76,6 @@ h1{
     justify-content: center;
     flex-direction: column;
     margin-left: 21%;
-
   }
 
 }

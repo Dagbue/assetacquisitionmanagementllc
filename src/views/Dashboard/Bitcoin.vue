@@ -1,10 +1,10 @@
 <template>
   <dash-content>
-    <router-view v-slot="{ Component }">
-      <transition name="route" mode="out-in">
-        <component :is="Component"></component>
-      </transition>
-    </router-view>
+<!--    <router-view v-slot="{ Component }">-->
+<!--      <transition name="route" mode="out-in">-->
+<!--        <component :is="Component"></component>-->
+<!--      </transition>-->
+<!--    </router-view>-->
     <form>
       <div class="bank-trans">
         <div class="bank-trans-form2">
@@ -25,15 +25,16 @@
       </div>
       <router-link to="/dash-board" class="bank-trans-btn" @click="message">Done</router-link>
     </form>
-    <div class="content-sep">
-      <hr class="line">
-      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-    </div>
+<!--    <div class="content-sep">-->
+<!--      <hr class="line">-->
+<!--      <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--    </div>-->
   </dash-content>
 </template>
 
 <script>
 import DashContent from "@/components/BaseComponents/dash/DashContent";
+import router from "@/router";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Bitcoin",
@@ -44,8 +45,9 @@ export default {
     }
   },
   methods: {
-    message() {
-      alert("Deposit Request Sent")
+    async message() {
+      await alert("Deposit Request Sent");
+      await router.push('/dash-board')
     }
   }
 }
@@ -53,14 +55,14 @@ export default {
 
 <style scoped>
 .bank-trans{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   color: #FFFFFF;
   margin-top: 8%;
   margin-right: 22%;
   margin-left: 13%;
   padding: 5% 5% 5% 6%;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 .bank-trans-form{
   display: flex;
@@ -76,8 +78,7 @@ input{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
   font-size: 17px;
 }
 select{
@@ -86,9 +87,8 @@ select{
   padding-left: 10px;
   background-color: aliceblue;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 17px;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 option{
   font-size: 18px;
@@ -98,9 +98,8 @@ option{
 label{
   padding-bottom: 12px;
   font-size: 19px;
-  color: #071333;
+  color: #ffffff;
   font-weight: 700;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 .content-sep {
@@ -113,58 +112,50 @@ label{
   text-align: center;
   padding-top: 5px;
 }
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
 .crypto{
   background-color: white;
   color: #071333;
   padding: 18px;
-  border-radius: 15px;
+  border-radius: 5px;
   font-size: 18px;
-  font-family: GTEestiProDisplay-Regular,serif ;
   letter-spacing: 1px;
 }
 option{
-  font-family: GTEestiProDisplay-Regular,serif ;
   font-size: 17px;
 }
 .crypto-label{
   padding-top: 15px;
   padding-bottom: 8px;
   font-size: 17px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #ffffff;
 }
 .note{
   text-align: center;
   padding-top: 6%;
   font-size: 16px;
-  font-family: GTEestiProDisplay-Regular,serif ;
   line-height: 1.2;
-  color: darkred;
+  color: #D23535;
 }
 .note-span{
-  color: #FF7A8A;
+  color: #D23535;
   font-size: 16px;
   font-weight: 700;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
 
 .bank-trans-btn{
   margin-left: 17%;
   padding: 15px 85px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 10px;
+  background-color: #D23535;
+  border: 1px soliD #D23535;
+  border-radius: 5px;
   font-size: 17px;
-  font-family: GTEestiProDisplay-Regular,serif ;
   text-decoration: none;
 }
 .bank-trans-btn:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #FFFFFF;
+  border: 1px soliD #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -174,7 +165,7 @@ option{
   padding-bottom: 10%;
   list-style: none;
   text-decoration: none;
-  color: #071333;
+  color: #FFFFFF;
 }
 
 .para-last:hover{

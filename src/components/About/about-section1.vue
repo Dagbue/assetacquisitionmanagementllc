@@ -23,9 +23,8 @@ export default {
   width: 50%;
   padding-top: 5%;
   padding-bottom: 5%;
-  color: #FF7A8A;
+  color: #D23535;
   font-weight: 300;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 hr{

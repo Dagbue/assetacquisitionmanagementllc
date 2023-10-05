@@ -11,9 +11,9 @@
             <p>{{ image.para }}</p>
           </transition>
 
-          <a @click.prevent="onPostClick" class="btn btn-white btn-animated"
-            >GET STARTED</a
-          >
+<!--          <a @click.prevent="onPostClick" class="btn btn-white btn-animated"-->
+<!--            >GET STARTED</a-->
+<!--          >-->
         </div>
       </div>
     </div>
@@ -40,13 +40,13 @@ export default {
 
 <style scoped>
 .slides .slideParent {
-  height: 72vh;
+  height: 60vh;
   width: 100%;
 }
 .slides .slideImage {
   height: 100vh;
   width: 100%;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   animation-fill-mode: forwards;
@@ -59,7 +59,7 @@ export default {
     transform: scale(1);
   }
   to {
-    transform: scale(1.2);
+    transform: scale(1);
   }
 }
 .slideTitle {
@@ -67,22 +67,29 @@ export default {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 4%;
+  padding-top: 2%;
   text-align: center;
   margin-left: 13%;
   margin-right: 15%;
+  letter-spacing: 0.1px;
 }
 
 .slideTitle h2 {
-  font-family: GTEestiProDisplay-Bold, serif;
   padding-top: 10%;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .slideTitle p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.5;
-  font-family: GTEestiProDisplay-Bold, serif;
+  background-color: #D23535;
+  color: #FFFFFF;
+  margin-right: 39%;
+  margin-left: 39%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 3%;
 }
 
 .slideTitle a {
@@ -90,20 +97,19 @@ export default {
   margin-left: 40%;
   margin-right: 40%;
   margin-top: 1%;
-  font-family: GTEestiProDisplay-Bold, serif;
 }
 
 .fade-enter-active {
   animation-name: fadeEnter;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
 }
 .fade-move {
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .fade-leave-active {
   animation-name: fadeLeave;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   position: absolute;
 }
@@ -140,7 +146,6 @@ export default {
   background-color: #FF7A8A;
   color: white;
   font-size: 12px;
-  font-family: GTEestiProDisplay-Bold, serif;
   padding: 7px 5px;
   text-transform: uppercase;
   text-decoration: none;

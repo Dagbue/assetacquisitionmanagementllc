@@ -51,8 +51,8 @@ export default {
 .product-inner {
   position: relative;
   padding: 25px;
-  box-shadow: 0 0 17px rgb(7, 19, 51, 0.5);
-  border-radius: 10px;
+  box-shadow: 0 0 12px #313131;
+  border-radius: 5px;
 }
 
 .product-image-wrap .image {
@@ -71,14 +71,14 @@ export default {
 .product-detail p {
   font-size: 13px;
   line-height: 1.5;
-  color: #071333;
+  color: #FFFFFF;
   font-weight: 300;
 }
 
 .product-text-wrap h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #071333;
+  color: #FFFFFF;
   margin-top: 5%;
   text-align: center;
   padding-bottom: 10px;
@@ -101,7 +101,8 @@ export default {
 }
 
 .btn:hover {
-  background-color: #071333;
+  background-color: #FFFFFF;
+  border: 1px solid #D23535;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 .btn:active {
@@ -109,30 +110,28 @@ export default {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 .btn-white {
-  background-color: #FF7A8A;
+  background-color: #D23535;
+  border: 1px solid #D23535;
   color: white;
   font-size: 13px;
-  font-family: GTEestiProDisplay-Bold, serif;
   padding: 8px 18px;
   text-decoration: none;
   display: inline-block;
   transition: all 0.2s;
   position: relative;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
 .text-header {
-  font-family: GTEestiProDisplay-Regular, serif;
   letter-spacing: 1px;
 }
 
 .product-detail p {
-  font-family: GTEestiProDisplay-Regular, serif;
   font-size: 19px;
 }
 img{
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -160,7 +159,6 @@ img{
     font-size: 19px;
   }
   .product-detail p {
-    font-family: GTEestiProDisplay-Regular, serif;
     font-size: 17px;
   }
   .product-image-wrap .image {

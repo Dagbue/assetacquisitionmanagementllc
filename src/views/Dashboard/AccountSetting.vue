@@ -11,10 +11,10 @@
       </transition>
     </router-view>
   </div>
-    <div class="content-sep">
-      <hr class="line">
-      <p class="foot">© 2022 Trading Assets Limited | All Rights Reserved</p>
-    </div>
+<!--    <div class="content-sep">-->
+<!--      <hr class="line">-->
+<!--      <p class="foot">© 2022 Trading Assets Limited | All Rights Reserved</p>-->
+<!--    </div>-->
   </div>
 </dash-content>
 </template>
@@ -35,61 +35,53 @@ export default {
 .header-settings{
   padding-bottom: 20px;
   font-size: 24px;
-  color: #FF7A8A;
+  color: #D23535;
   text-transform: uppercase;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .settings-links{
   margin-top: 2%;
 }
 .account-links{
   text-decoration: none;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  padding: 18px 35px;
-  background-color: #282E3BC7;
-  margin-right: 1%;
-  color: #071333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 15px 35px;
+  margin-right: 2%;
+  color: #ffffff;
   text-transform: uppercase;
-  border-radius: 12px;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .account-links:hover{
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
+  background-color: #D23535;
+  border-color: #D23535;
   color: #fff;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.account-links:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-}
+
 .account-links2{
   text-decoration: none;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  padding: 18px 35px;
-  background-color: #282E3BC7;
-  margin-left: 1%;
-  color: #071333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 15px 35px;
+  margin-right: 2%;
+  color: #ffffff;
   text-transform: uppercase;
-  border-radius: 12px;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .account-links2:hover{
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
+  background-color: #D23535;
+  border-color: #D23535;
   color: #fff;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.account-links2:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-}
 .content-sep {
   margin-top: 8%;
   color: white;
@@ -100,9 +92,7 @@ export default {
   text-align: center;
   padding-top: 5px;
 }
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
+
 
 @media (max-width: 990px) {
   .header-settings{

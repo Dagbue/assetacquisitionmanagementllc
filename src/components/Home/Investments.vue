@@ -29,25 +29,24 @@ export default {
 .career-choice{
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px #313131;
   border-radius: 10px;
   padding-left: 40px;
   padding-top: 40px;
   width: 45%;
   margin: 10px auto;
-  background-color: white;
   transition: 4ms ease-in;
+  background-color: #121212;
 }
 
 
 
 .career-choice .one{
-  font-family: GTEestiProDisplay-Regular,serif;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  color: #071333;
+  color: #ffffff;
   margin: 0;
   padding-top: 25px;
   padding-bottom: 20px;
@@ -59,22 +58,20 @@ export default {
 
 
 .career-choice .two {
-  font-family: GTEestiProDisplay-Light,serif;
   font-size: 17px;
   line-height: 22px;
   letter-spacing: 0;
-  color: #071333;
+  color: #ffffff;
   margin: 0;
   padding-bottom: 40px;
   padding-right: 50px;
 }
 
 .career-choice .three{
-  font-family: GTEestiProDisplay-Bold,serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0;
-  color: #FF7A8A;
+  color: #D23535;
   padding-bottom: 30px;
   margin: 0;
 }

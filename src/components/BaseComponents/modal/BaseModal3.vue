@@ -30,10 +30,9 @@ dialog {
   height: 20rem;
   left: calc(50% - 10rem);
   margin: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 1rem;
-  background-color: #282E3BC7;
+  background: rgba(34, 34, 34, 1);
   color: white;
   z-index: 100;
   border: none;

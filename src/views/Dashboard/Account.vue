@@ -89,19 +89,18 @@ export default {
   font-size: 22px;
   padding-bottom: 20px;
   text-align: center;
-  color: #FF7A8A;
+  color: #D23535;
   padding-right: 110px;
-  font-family: GTEestiProDisplay-Bold,serif ;
 }
 .bank-trans{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
   color: #FFFFFF;
   margin-bottom: 1.7%;
   margin-right: 15%;
   margin-left: 12%;
   padding: 32px 6% 42px;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
 .bank-trans-form{
@@ -113,8 +112,7 @@ export default {
   padding-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  color: #ffffff;
 }
 
 input{
@@ -123,17 +121,15 @@ input{
   padding-left: 10px;
   background-color: rgba(247, 247, 249, 1);
   border: none;
-  border-radius: 10px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  border-radius: 5px;
 }
 
 label{
   padding-top: 7px;
   padding-bottom: 17px;
   font-size: 15px;
-  color: #FF7A8A;
+  color: #D23535;
   font-weight: 700;
-  font-family: GTEestiProDisplay-Regular,serif ;
   display: none;
 }
 
@@ -141,10 +137,9 @@ label{
   margin-bottom: 4%;
   padding: 13px 100px;
   color: white;
-  background-color: #FF7A8A;
-  border-color: #FF7A8A;
-  border-radius: 15px;
-  font-family: GTEestiProDisplay-Regular,serif ;
+  background-color: #D23535;
+  border-color: #D23535;
+  border-radius: 5px;
   font-size: 16px;
   display: block;
   margin-right: auto;
@@ -152,8 +147,9 @@ label{
 }
 
 .bank-trans-btn:hover{
-  background-color: #071333;
-  border-color: #071333;
+  color: #071333;
+  background-color: #ffffff;
+  border-color: #D23535;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }

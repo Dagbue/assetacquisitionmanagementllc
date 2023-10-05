@@ -15,7 +15,7 @@
         </div>
       </sequential-entrance>
       <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QiI6zYZ6rTs?si=zGf19mhJhlJBx5Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NT4WF_-KXt4?si=sFE2daGowYQkPdqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -30,12 +30,14 @@ export default {
 <style scoped>
 .section {
   display: flex;
+  align-content: center;
+  align-items: center;
   padding-bottom: 7%;
   justify-content: space-around;
 }
 
 .portfolio-header-alpha {
-  background-color: #071333;
+  background: rgba(34, 34, 34, 0.5);
   height: 100%;
 }
 .video {
@@ -47,31 +49,28 @@ iframe{
   width: 100%;
 }
 .portfolio-header1 {
-  line-height: 50px;
+  line-height: 45px;
 }
 .portfolio-header1-one {
   color: #fff;
   font-size: 25px;
-  padding-top: 10%;
+  padding-top: 9%;
   padding-left: 7%;
   padding-right: 5%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .portfolio-header1-two {
   padding-top: 20px;
   padding-left: 7%;
   padding-right: 20%;
-  font-family: GTEestiProDisplay-Regular, serif;
   font-size: 20px;
   letter-spacing: 1px;
   color: #fff;
 }
 .portfolio-header1-three {
   color: white;
-  font-size: 31px;
+  font-size: 28px;
   padding-left: 7%;
   padding-right: 10%;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .global{
   color: #63B8A0;

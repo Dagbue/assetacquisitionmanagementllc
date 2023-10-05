@@ -57,14 +57,15 @@ export default {
 <style scoped>
 .about-alpha{
   display: flex;
+  align-items: center;
+  align-content: center;
   padding-bottom: 5%;
 }
 .about-image{
   width: 92%;
-  border-radius: 25px;
+  border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
   margin-left: 10px;
-  margin-top: 9%;
 }
 .about-content{
   display: flex;
@@ -73,55 +74,44 @@ export default {
 }
 .about-content-text{
   padding-left: 20px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .about-content-text h4{
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .about-content-text p {
   font-size: 17px;
+  line-height: 1.5;
 }
 .about-section-1{
   width: 80%;
   padding-left: 80px;
   padding-right: 20px;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular, serif;
+  color: #ffffff;
 }
 .bx-line-chart{
   font-size: 30px;
 }
 .box{
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  padding: 15px;
+  box-shadow: 0 0 7px #313131;
+  padding: 10px 10px 30px 10px;
   border-radius: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
-.box:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-  transition: 4ms ease-in;
-}
+
 
 .about-text-1{
   text-align: center;
   font-size: 32px;
-  color: #071333;
+  color: #ffffff;
   font-weight: bold;
   padding-top: 4%;
-  font-family: GTEestiProDisplay-Regular, serif;
+  padding-bottom: 2%;
 }
 
 .about-header-1{
   text-align: center;
   font-weight: bold;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .about-text-2{
   font-size: 17px;
@@ -132,38 +122,35 @@ export default {
 
 .header-button{
   padding: 15px 50px;
-  background-color: #FF7A8A;
-  border: #FF7A8A;
-  border-radius: 15px;
+  background-color: #D23535;
+  border: 1px solid #D23535;
+  border-radius: 5px;
   margin-top: 5px;
   color: white;
   margin-left: 40px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 .header-button:hover {
   transform: translateY(-3px);
-  background-color: #071333;
-  border: #071333;
+  background-color: #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   transition: 4ms ease-in;
 }
-.header-button:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-  transition: 4ms ease-in;
-}
+
 
 
 i{
   font-size: 35px;
-  color: #FF7A8A;
-  padding-right: 15px;
+  color: #D23535;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .about-content-text h4{
   font-size: 25px;
-  color: #071333;
+  color: #ffffff;
 }
 
 @media (max-width: 990px) {

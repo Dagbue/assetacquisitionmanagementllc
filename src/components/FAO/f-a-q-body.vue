@@ -141,6 +141,7 @@ section {
   padding-top: 4%;
   width: 60%;
   margin: auto;
+  color: #FFFFFF;
 }
 
 details[open] summary ~ * {
@@ -186,12 +187,11 @@ details summary {
   list-style: none;
   padding-top: 18px;
   padding-bottom: 10px;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 details summary:after {
   content: "+";
-  color: black;
+  color: #FFFFFF;
   position: absolute;
   font-size: 1.75rem;
   line-height: 0;
@@ -212,14 +212,13 @@ details p {
   font-size: 17px;
   margin: 0 0 1rem;
   padding-top: 1rem;
-  font-family: GTEestiProDisplay-light, serif;
 }
 details {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px #313131;
   position: relative;
   padding: 20px;
   margin-bottom: 5%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 @media (max-width: 500px){
   .details summary {
@@ -229,7 +228,6 @@ details {
     font-size: 16px;
     margin: 0 0 1rem;
     padding-top: 1rem;
-    font-family: GTEestiProDisplay-light, serif;
   }
   summary{
     font-size: 20px;

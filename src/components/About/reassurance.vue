@@ -42,26 +42,24 @@ export default {
 <style scoped>
 
 .alpha{
-  background-color: #f0f2f4;
+  background: rgba(34, 34, 34, 0.5);
 }
 
 .section-header{
   font-size: 25px;
-  color: #071333;
+  color: #ffffff;
   text-align: center;
   font-weight: 300;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 .section-header-1{
   font-size: 32px;
-  color: #FF7A8A;
+  color: #ffffff;
   font-weight: bold;
   padding-top: 3%;
   padding-bottom: 0;
   margin-bottom: 0;
   letter-spacing: 1px;
   text-align: center;
-  font-family: GTEestiProDisplay-Regular, serif;
 }
 
 img{
@@ -82,13 +80,11 @@ img{
 .section-2-content-header{
   font-size: 28px;
   padding-top: 20px;
-  font-family: GTEestiProDisplay-Regular,serif;
   font-weight: bold;
-  color: #FF7A8A;
+  color: #ffffff;
 }
 
 p{
-  font-family: GTEestiProDisplay-Light,serif;
   padding-top: 10px;
   line-height: 1.5;
   color: #676767;
@@ -102,28 +98,23 @@ p{
 
 
 .btn:hover {
-  background-color: #071333;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 4ms ease-in;
-}
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  transition: 4ms ease-in;
+  background-color:  #ffffff;
+  border: 1px solid #D23535;
+  color: #071333;
 }
 .btn-white {
-  background-color:  #FF7A8A;
+  background-color:  #D23535;
+  border: 1px solid #D23535;
   color: white;
-  font-size: 15px;
-  font-family: GTEestiProDisplay-Regular,serif;
+  font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 50px;
+  padding: 13px 40px;
   margin-top: 10%;
   display: inline-block;
   transition: all .2s;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 @media (max-width: 990px) {

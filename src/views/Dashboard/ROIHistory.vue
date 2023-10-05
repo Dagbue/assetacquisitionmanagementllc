@@ -1,9 +1,9 @@
 <template>
 <dash-content>
   <div>
-    <h1 class="history-header">Your ROI History</h1>
+    <h1 class="history-header">Your Roi History</h1>
     <div class="fields-alpha">
-    <div class="container mt-3">
+
       <table class="table" >
         <thead>
         <tr>
@@ -24,14 +24,12 @@
         </tbody>
       </table>
 
-    </div>
-
   </div>
   </div>
-  <div class="content-sep">
-    <hr class="line">
-    <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>
-  </div>
+<!--  <div class="content-sep">-->
+<!--    <hr class="line">-->
+<!--    <p class="foot">© 2009 Asset Acquisition & Management, LLC | All Rights Reserved</p>-->
+<!--  </div>-->
 </dash-content>
 </template>
 
@@ -46,15 +44,13 @@ export default {
 <style scoped>
 .history-header{
   padding-top: 3%;
-  padding-bottom: 30px;
   font-size: 25px;
   text-align: center;
-  color: #FF7A8A;
-  font-family: GTEestiProDisplay-Bold,serif ;
+  color: #D23535;
 }
 .fields-alpha{
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #282E3BC7;
+  /*box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);*/
+  /*background-color: #282E3BC7;*/
   padding-top: 20px;
   padding-bottom: 50px;
   margin-left: 3%;
@@ -67,38 +63,44 @@ hr{
   margin-right: 5%;
   margin-top: 1%;
 }
-.content-sep {
-  margin-top: 39%;
-  color: #071333;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
-.foot{
-  text-align: center;
-  padding-top: 5px;
-}
-p{
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-th{
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
-}
-td{
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
+.table{
+  /*margin-left: 2%;*/
+  /*margin-right: 3%;*/
 }
 
-.content-sep, hr{
-  margin-top: 36%;
-  color: #071333;
-  margin-left: 2%;
-  margin-right: 2%;
+tr{
+  border: 1px solid #E3EBF6;
 }
 
-.foot{
+th {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(34, 34, 34, 1);
+  padding: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
   text-align: center;
-  color: #071333;
-  font-family: GTEestiProDisplay-Regular,serif ;
 }
+
+td {
+  /*border: 1px solid #E3EBF6;*/
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 12px 8px;
+  /*letter-spacing: 1px;*/
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 15px;
+  /*border-bottom: 1px solid #E3EBF6;*/
+}
+
 @media (max-width: 990px) {
   .history-header{
     font-size: 22px;

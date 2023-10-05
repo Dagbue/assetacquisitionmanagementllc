@@ -17,11 +17,11 @@ export default {
 .home-content{
   position: fixed;
   left: 290px;
-  background-color: rgba(242, 250, 253, 0.4);
+  /*background-color: #121212;*/
   width: calc(100% - 300px);
   height: 100%;
   transition: all 0.5s ease;
-  color: black;
+  /*color: black;*/
   margin: 0 10px;
   cursor: pointer;
   overflow-y: scroll;
