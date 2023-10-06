@@ -70,11 +70,11 @@ export default {
   name: "footer-home",
   methods: {
     onPostClick() {
-      this.$router.push("/");
+      this.$router.push("/home");
       window.scrollTo(0, 0);
     },
     onPostClick2() {
-      this.$router.push("/login");
+      this.$router.push("/");
       window.scrollTo(0, 0);
     },
     onPostClick3() {

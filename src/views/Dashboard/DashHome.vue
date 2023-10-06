@@ -175,8 +175,8 @@
 
 
     <div v-if="!user" class="final">
-      <router-link to="/login" class="back-login">Go Back To The Login Page</router-link>
-      <router-link to="/" class="back-home">Go Back To The Home Page</router-link>
+      <router-link to="/" class="back-login">Go Back To The Login Page</router-link>
+      <router-link to="/home" class="back-home">Go Back To The Home Page</router-link>
     </div>
   </div>
 </template>

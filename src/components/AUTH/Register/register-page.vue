@@ -352,7 +352,7 @@ export default {
 
   methods: {
     onPostClick() {
-      this.$router.push("/login");
+      this.$router.push("/");
       window.scrollTo(0, 0);
     },
     hideDialog() {

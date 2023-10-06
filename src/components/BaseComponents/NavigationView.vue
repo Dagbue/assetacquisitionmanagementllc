@@ -23,14 +23,14 @@
         <img alt="company logo" src="@/assets/companylogo.svg" class="logo" />
 
         <ul class="menu-4" v-show="!mobile">
-          <li class="link"><router-link  to="/" class="link-2">HOME</router-link></li>
+          <li class="link"><router-link  to="/home" class="link-2">HOME</router-link></li>
           <li class="link"><router-link  to="/about" class="link-2">COMPANY PORTFOLIO</router-link></li>
           <li class="link"><router-link  to="/pricing" class="link-2">INVESTMENT PLAN</router-link></li>
 <!--          <li class="link"><router-link  to="/market-view" class="link-2">MARKETS</router-link></li>-->
           <li class="link"><router-link  to="/contact" class="link-2">CONTACT</router-link></li>
           <li class="link"><router-link  to="/faq" class="link-2">F.A.Q</router-link></li>
           <li class="link"><router-link  to="/register" class="auth">SIGNUP</router-link></li>
-          <li class="link"><router-link  to="/login" class="auth">LOGIN</router-link></li>
+          <li class="link"><router-link  to="/" class="auth">LOGIN</router-link></li>
         </ul>
 
       </div>
@@ -39,14 +39,14 @@
         <div>
           <ul class="dropdown-nav" v-show="mobileNav">
             <img alt="company logo" src="@/assets/companylogo.svg" class="logo2" />
-            <li @click="toggleMobileNav2"><router-link  to="/" >HOME</router-link></li>
+            <li @click="toggleMobileNav2"><router-link  to="/home" >HOME</router-link></li>
             <li @click="toggleMobileNav2"><router-link  to="/about" >COMPANY PORTFOLIO</router-link></li>
             <li @click="toggleMobileNav2"><router-link  to="/pricing" >INVESTMENT PLAN</router-link></li>
 <!--            <li @click="toggleMobileNav2"><router-link  to="/market-view" >MARKETS</router-link></li>-->
             <li @click="toggleMobileNav2"><router-link  to="/contact" >CONTACT</router-link></li>
             <li @click="toggleMobileNav2"><router-link  to="/faq" >F.A.Q</router-link></li>
             <li @click="toggleMobileNav2"><router-link  to="/register" >SIGNUP</router-link></li>
-            <li @click="toggleMobileNav2"><router-link  to="/login" >LOGIN</router-link></li>
+            <li @click="toggleMobileNav2"><router-link  to="/" >LOGIN</router-link></li>
           </ul>
 
 

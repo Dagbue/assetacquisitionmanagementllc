@@ -101,13 +101,10 @@ export default {
 }
 
 .btn:hover {
+  color: #071333;
   background-color: #FFFFFF;
   border: 1px solid #D23535;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-.btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 .btn-white {
   background-color: #D23535;

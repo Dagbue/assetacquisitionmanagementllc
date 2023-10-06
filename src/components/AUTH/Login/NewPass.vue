@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     onPostClick() {
-      this.$router.push("/login");
+      this.$router.push("/");
     },
   },
 };

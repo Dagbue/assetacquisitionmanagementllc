@@ -40,7 +40,7 @@ export default {
   components: {},
   methods: {
     onPostClick() {
-      this.$router.push("/login");
+      this.$router.push("/");
     },
   },
 };

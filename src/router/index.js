@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home
   },
@@ -35,7 +35,7 @@ const routes = [
 
   },
   {
-    path: "/login",
+    path: "/",
     name: "Login",
     component: () =>
         import(/* webpackChunkName: "Login" */ "../views/Auth/LOGIN/Login"),
