@@ -38,7 +38,7 @@
               <div class="social-logo">
                 <div class="last-div">
                   <i class='bx bxs-phone' ></i>
-                  <p class="last-div-para">+1 (830) 444-9374</p>
+                  <p class="last-div-para">+1 (702) 861-1481</p>
                 </div>
               </div>
               <div class="social-logo">

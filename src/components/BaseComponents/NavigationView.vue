@@ -11,7 +11,7 @@
             <i class='bx bxs-time-five' ></i>Mon – Sat: 9:00am–18:00pm.
           </p>
           <p class="topmost-header-text">
-            <i class='bx bxs-phone' ></i>+1 (830) 444-9374
+            <i class='bx bxs-phone' ></i>+1 (702) 861-1481
           </p>
         </div>
       </div>

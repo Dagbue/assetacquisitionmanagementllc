@@ -12,7 +12,7 @@
         <p class="contact-text-para-2">
           C/O Taac, LLC, 3 Lone Oak Circle, Ladera Ranch CA 92694
         </p>
-        <p class="contact-text-para-3">Telephone: +1 (830) 444-9374</p>
+        <p class="contact-text-para-3">Telephone: +1 (702) 861-1481</p>
         <p class="contact-text-para-4">E-mail: support@assetacquisitionmanagementllc.com</p>
       </div>
     </sequential-entrance>
