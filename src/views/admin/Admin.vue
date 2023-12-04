@@ -29,6 +29,15 @@
             <router-link to="/investments" class="links-name">Investments</router-link>
           </a>
         </li>
+
+
+        <li>
+          <a>
+            <i class='bx bx-credit-card' ></i>
+            <router-link to="/edit-investments" class="links-name">Edit Investments</router-link>
+          </a>
+        </li>
+
         <li>
           <a>
             <i class='bx bx-line-chart' ></i>

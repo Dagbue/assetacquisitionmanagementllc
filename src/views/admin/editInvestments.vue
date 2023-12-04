@@ -1,77 +1,74 @@
-<!--suppress JSCheckFunctionSignatures, UnreachableCodeJS -->
 <template>
   <h3 class="user-info-header">
-    List of Investments
+    Edit Investments
   </h3>
-<div>
-  <div class="container mt-3" >
-    <table class="table" >
-      <thead>
-      <tr>
-        <th>Email</th>
-        <th>Trade Plans</th>
-        <th>Account Balance</th>
-        <th>Deposit</th>
-        <th>Profits</th>
-        <th>Bonus</th>
-        <th>Ref Bonus</th>
-        <th>Withdrawal</th>
-      </tr>
-      </thead>
+  <div>
+    <div class="container mt-3" >
+      <table class="table" >
+        <thead>
+        <tr>
+          <th>Email</th>
+          <th>Trade Plans</th>
+          <th>Account Balance</th>
+          <th>Deposit</th>
+          <th>Profits</th>
+          <th>Bonus</th>
+          <th>Ref Bonus</th>
+          <th>Withdrawal</th>
+        </tr>
+        </thead>
 
-      <tbody v-for="items in contacts" :key="items.id">
-      <tr>
-        <td>{{items.email}}</td>
-        <td>{{items.selected}}</td>
-        <td>$ {{items.balance}}</td>
-        <td>$ {{ items.deposit }}</td>
-        <td>$ {{items.profits}}</td>
-        <td>$ {{items.bonusMain}}</td>
-        <td>$ {{items.bonus}}</td>
-        <td>$ {{items.withdrawal}}</td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <form>
-    <div class="fields-alpha-2">
-<!--      <label>Select Email</label>-->
-      <select class="select-form" v-model="SelectEmail" aria-placeholder="Select Users Email" required>
-        <option value="" disabled>Select Users Email</option>
-        <option v-for="option in contacts" :key="option" :value="option.email" >
-          {{ option.email}}
-        </option>
-      </select>
-
-<!--      <label>Enter Profit</label>-->
-      <input type="number" v-model="profits" placeholder="Enter Profit"/>
-      <button class="btn" @click="update1" type="button">Submit</button>
-
-<!--      <label>Enter Bonus</label>-->
-      <input type="number" v-model="bonusMain" placeholder="Enter Bonus"/>
-      <button class="btn" @click="update2" type="button">Submit</button>
-
-<!--      <label>Enter Ref Bonus</label>-->
-      <input type="number" v-model="bonus" placeholder="Enter Ref Bonus"/>
-      <button class="btn" @click="update3" type="button">Submit</button>
+        <tbody v-for="items in contacts" :key="items.id">
+        <tr>
+          <td>{{items.email}}</td>
+          <td>{{items.selected}}</td>
+          <td>$ {{items.balance}}</td>
+          <td>$ {{ items.deposit }}</td>
+          <td>$ {{items.profits}}</td>
+          <td>$ {{items.bonusMain}}</td>
+          <td>$ {{items.bonus}}</td>
+          <td>$ {{items.withdrawal}}</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
-  </form>
-</div>
 
+    <form>
+      <div class="fields-alpha-2">
+        <!--      <label>Select Email</label>-->
+        <select class="select-form" v-model="SelectEmail" aria-placeholder="Select Users Email" required>
+          <option value="" disabled>Select Users Email</option>
+          <option v-for="option in contacts" :key="option" :value="option.email" >
+            {{ option.email}}
+          </option>
+        </select>
+
+        <!--      <label>Enter Profit</label>-->
+        <input type="number" v-model="deposit" placeholder="Edit Deposit"/>
+        <button class="btn" @click="update4" type="button">Edit</button>
+
+        <!--      <label>Enter Profit</label>-->
+        <input type="number" v-model="profits" placeholder="Edit Profit"/>
+        <button class="btn" @click="update1" type="button">Edit</button>
+
+        <!--      <label>Enter Bonus</label>-->
+        <input type="number" v-model="bonusMain" placeholder="Edit Bonus"/>
+        <button class="btn" @click="update2" type="button">Edit</button>
+
+        <!--      <label>Enter Ref Bonus</label>-->
+        <input type="number" v-model="bonus" placeholder="Edit Ref Bonus"/>
+        <button class="btn" @click="update3" type="button">Edit</button>
+      </div>
+    </form>
+  </div>
 </template>
 
 <script>
-
-
-import {collection, doc, getDocs, setDoc, increment, query, where } from "firebase/firestore";
+import {collection, doc, getDocs, query, setDoc, where} from "firebase/firestore";
 import {db} from "@/firebase/config";
 
-
-
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "Investments",
+  name: "editInvestments",
   data () {
     return {
       SelectEmail: "",
@@ -79,8 +76,10 @@ export default {
       profits:"",
       bonus:"",
       bonusMain:"",
+      deposit:""
     }
   },
+
   async created() {
     // const querySnapshot2 = await getDocs(collection(db, "Investment"));
     // querySnapshot2.forEach((doc) => {
@@ -123,44 +122,54 @@ export default {
   methods: {
     async update1() {
       await setDoc(doc(db, "Investment" ,this.SelectEmail ), {
-        profits: increment(this.profits),
+        profits: this.profits,
       },{ merge: true })
           .then(() => console.log('investment updated'));
 
       await setDoc(doc(db,this.SelectEmail, "USER" ), {
-        profits: increment(this.profits),
+        profits: this.profits,
       },{ merge: true })
           .then(() => location.reload());
     },
 
     async update2() {
       await setDoc(doc(db, "Investment" ,this.SelectEmail ), {
-        bonusMain: increment(this.bonusMain),
+        bonusMain: this.bonusMain,
       },{ merge: true })
           .then(() => console.log('investment updated'));
 
       await setDoc(doc(db,this.SelectEmail, "USER" ), {
-        bonusMain: increment(this.bonusMain),
+        bonusMain: this.bonusMain,
       },{ merge: true })
           .then(() => location.reload());
     },
 
     async update3() {
       await setDoc(doc(db, "Investment" ,this.SelectEmail ), {
-        bonus: increment(this.bonus),
+        bonus: this.bonus,
       },{ merge: true })
           .then(() => console.log('investment updated'));
 
       await setDoc(doc(db,this.SelectEmail, "USER" ), {
-        bonus: increment(this.bonus),
+        bonus: this.bonus,
+      },{ merge: true })
+          .then(() => location.reload());
+    },
+
+    async update4() {
+      await setDoc(doc(db, "Investment" ,this.SelectEmail ), {
+        deposit: this.deposit,
+      },{ merge: true })
+          .then(() => console.log('investment updated'));
+
+      await setDoc(doc(db,this.SelectEmail, "USER" ), {
+        deposit: this.deposit,
       },{ merge: true })
           .then(() => location.reload());
     },
   }
 }
 </script>
-
-
 
 <style scoped>
 .user-info-header{
@@ -172,29 +181,14 @@ export default {
 
 label{
   color: white;
-  padding-right: 5px;
-  padding-left: 5px;
+  /*padding-right: 5px;*/
+  /*padding-left: 5px;*/
 }
 
-.btn{
-  padding: 5px 15px;
-  border-radius: 5px;
-  margin-left: 1%;
-  color: white;
-  background-color: #D23535;
-  border:1px solid #D23535;
-}
 
-.btn:hover{
-  color: #071333;
-  background-color: #ffffff;
-  border:1px solid #D23535;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
 
 input{
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 
@@ -206,25 +200,23 @@ input{
   padding-left: 20px;
   margin-left: 1%;
   margin-right: 1%;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-top: 2%;
-
-
-
 }
+
 
 label{
   color: white;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
 }
 
 .btn{
-  padding: 5px 20px;
+  padding: 3px 15px;
   border-radius: 5px;
   color: white;
   background-color: #D23535;
   border:1px solid #D23535;
-  margin-left: 2%;
+  margin-left: 0.5%;
 }
 
 .btn:hover{
@@ -305,4 +297,3 @@ td {
 /*  content:counter(Serial); !* Display the counter *!*/
 /*}*/
 </style>
-

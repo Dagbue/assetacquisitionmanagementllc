@@ -286,6 +286,15 @@ const routes = [
             import(/* webpackChunkName: "addNewUser" */ "../views/admin/addNewUser"),
         meta: { hideNavigation: true }
       },
+
+      {
+        path: "/edit-investments",
+        name: "editInvestments",
+        component: () =>
+            import(/* webpackChunkName: "editInvestments" */ "../views/admin/editInvestments.vue"),
+        meta: { hideNavigation: true }
+      },
+
     ]
   },
 ]

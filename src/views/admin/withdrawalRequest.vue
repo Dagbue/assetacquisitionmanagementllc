@@ -255,9 +255,9 @@ td {
   /*border-bottom: 1px solid #E3EBF6;*/
 }
 
-tr td:first-child:before
-{
-  counter-increment: Serial;      /* Increment the Serial counter */
-  content:counter(Serial); /* Display the counter */
-}
+/*tr td:first-child:before*/
+/*{*/
+/*  counter-increment: Serial;      !* Increment the Serial counter *!*/
+/*  content:counter(Serial); !* Display the counter *!*/
+/*}*/
 </style>
