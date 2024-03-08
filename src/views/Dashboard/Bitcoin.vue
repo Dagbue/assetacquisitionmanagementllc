@@ -10,9 +10,9 @@
         <div class="bank-trans-form2">
           <label>Select Wallet For Deposit</label>
           <select  v-model="selected2" aria-required="">
-            <option value="15QnGjD55qNdYbnA3C6MXpUyPsNQ5jUY6V">Bitcoin</option>
-            <option value="0xC0969331083D984278b62B1BE39Bed63b04C1ccD">Ethereum</option>
-            <option value="0xC0969331083D984278b62B1BE39Bed63b04C1ccD">USDT</option>
+            <option value="bc1q8gx3z6m6lmpzp0msct7pnxphfc3eclfg8mdxtm">Bitcoin</option>
+            <option value="0xD1A7C5b9dE8E059f808d672cB5cB6CE9D0515511">Ethereum</option>
+            <option value="TPbVte82HnstXZjfrkhoZnPh6jnySYsDYt">USDT Tron</option>
           </select>
         </div>
         <div class="bank-trans-form">
